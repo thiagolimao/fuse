@@ -1,0 +1,95 @@
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section, .section
+{
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg
+{
+    background-color: lighten($secondary, 36);
+}
+
+.section-title
+{
+    padding-bottom: 40px;
+    position: relative;
+
+    .btn {
+        position: absolute;
+        right: 0;
+        bottom: 50px;
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 575.98px) {
+            position: static;
+        }
+    }
+
+    h2
+    {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: lighten($default, 40);
+        font-family: $font-secondary;
+        
+        &:after {
+            content: "";
+            width: 120px;
+            height: 1px;
+            display: inline-block;
+            background: $primary;
+            margin: 4px 10px;
+        }
+    }
+
+    p
+    {
+        margin: 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: $font-secondary;
+        color: $default-color;
+        // color: darken($secondary, 36);
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 575.98px) {
+            line-height: 1.2;
+            margin-bottom: .5rem;
+        }
+
+        // extra mobile
+        @media (max-width: 320px) {
+          font-size: 1.8rem;
+        }
+    }
+
+}
+
+.row
+{
+    .content-sticky
+    {
+        position: relative;
+        padding-top: 165px;
+        padding-bottom: 44px;
+        // padding-bottom: 96px;
+        .element-sticky
+        {
+            position: sticky;
+            top: 91px;
+
+            img {
+                max-width: 100%;
+            }
+
+        }
+    }
+}

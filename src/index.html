@@ -1,0 +1,55 @@
+{% extends "template.html" %}
+
+{% set page ='home' %}
+
+{% block meta %}
+<title>Fuse</title>
+{% endblock %}
+
+{% block content %}
+
+{% include "parts/hero.html" %}
+
+<main id="main">
+
+    {% include "parts/about-section.html" %}
+
+    {% include "parts/quote-section.html" %}
+
+    {% include "parts/portfolio-section.html" %}
+
+
+    <div class="container">
+        <div class="row">    
+            <div class="col-md-10 col-12">
+                {% include "parts/team-section.html" %}
+            </div>
+
+            <div class="col-md-2 content-sticky d-none d-lg-block" data-aos="zoom-in" data-aos-delay="100">
+                <div class="element-sticky">
+                    <img src="assets/img/simbolo.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="files">    
+            <div class="col-md-8 col-12">
+                {% include "parts/files-section.html" %}
+            </div>
+
+            <div class="col-md-4 col-12">
+                {% include "parts/stamps-section.html" %}
+            </div>
+            
+        </div>
+    </div>
+
+    {% include "parts/contact-section.html" %}
+    {% include "parts/modal.html" %}
+
+    
+
+
+</main><!-- End #main -->
+
+{% endblock %}

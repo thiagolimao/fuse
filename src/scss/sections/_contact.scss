@@ -1,0 +1,171 @@
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+
+    background-image: url("../img/simbolo.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: relative;
+    margin-bottom: -3px;
+    background-size: 9%;
+
+    @media (max-width: 575.98px) {
+        background-size: 28%;
+    }
+
+    .info
+    {
+        width: 100%;
+        // background: $white;
+
+        i
+        {
+            font-size: 20px;
+            color: rgba($default-color, 1);
+            float: left;
+            width: 44px;
+            height: 44px;
+            // background: lighten($secondary, 35);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        h4
+        {
+            padding: 0 0 0 60px;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            // color: darken($secondary, 36);
+        }
+
+        p {
+            padding: 0 0 0 60px;
+            margin-bottom: 0;
+            font-size: 14px;
+            // color: darken($secondary, 30);
+        }
+
+        .email,
+        .phone
+        {
+            margin-top: 40px;
+        }
+
+        .email:hover,
+        .address:hover,
+        .phone:hover
+        {
+            i
+            {
+                background: rgba($default-color, 1);
+                color: $white;
+            }
+        }
+    }
+
+
+    .php-email-form
+    {
+        width: 100%;
+        // background: #fff;
+
+        .form-group
+        {
+            // padding-bottom: 8px;
+        }
+
+        .validate
+        {
+            display: none;
+            color: red;
+            margin: 0 0 15px 0;
+            font-weight: 400;
+            font-size: 13px;
+        }
+
+        .error-message
+        {
+            display: none;
+            color: #fff;
+            background: #ed3c0d;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+            & br + br
+            {
+                margin-top: 25px;
+            }
+        }
+
+        .sent-message
+        {
+            display: none;
+            color: #fff;
+            background: #18d26e;
+            text-align: center;
+            padding: 15px;
+            font-weight: 600;
+        }
+
+        .loading
+        {
+            display: none;
+            background: #fff;
+            text-align: center;
+            padding: 15px;
+            &:before
+            {
+                content: "";
+                display: inline-block;
+                border-radius: 50%;
+                width: 24px;
+                height: 24px;
+                margin: 0 10px -6px 0;
+                border: 3px solid #18d26e;
+                border-top-color: #eee;
+                animation: animate-loading 1s linear infinite;
+            }
+
+        }
+
+        input, textarea
+        {
+            box-shadow: none;
+            font-size: 14px;
+            border-radius: .4rem;
+        }
+
+        input {
+            height: 44px;
+        }
+
+        textarea {
+            padding: 10px 12px;
+        }
+
+        button[type="submit"]
+        {
+            background: $default-color;
+            border: 0;
+            padding: 10px 30px;
+            color: #fff;
+            transition: 0.4s;
+            border-radius: .4rem;
+            &:hover
+            {
+                background: rgba($default-color, .5);
+            }
+        }
+
+    }
+
+    @keyframes animate-loading {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+}

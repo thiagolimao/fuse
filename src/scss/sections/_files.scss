@@ -1,0 +1,191 @@
+/*--------------------------------------------------------------
+# Files
+--------------------------------------------------------------*/
+.files {
+
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: 575.98px) {
+        padding-bottom: 0;
+    }
+
+}
+    .tag_list
+    {
+        margin-bottom: 32px;
+        li
+        {
+            margin-top: 15px;
+            a
+            {
+                font-size: 16px;
+                color: #6b707f;
+                line-height: 22px;
+                transition: color 0.2s linear;
+
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+
+                &:hover,
+                &:hover *
+                {
+                    color: #6b707f;
+                }
+
+                &:hover
+                {
+                    time {
+                        text-decoration: none !important;
+                    }
+                }
+
+                span {
+                    margin-top: -3px;  
+                    i {
+                        display: block;
+                    }
+                }
+
+
+
+                .ico-file
+                {
+                    width: 2rem;
+                    height: 1.4rem;
+                    margin-right: 8px;
+                }
+
+                h3
+                {
+                    span {
+                        display: block;
+                    }
+                }
+            }
+
+            time {
+                font-style: italic;
+                font-size: .8rem;
+                opacity: .7;
+            }
+
+            .card,
+            .card-header {
+                background-color: transparent;
+                background-clip: border-box;
+                border: none;
+                border-radius: initial;
+            }
+
+
+            .card-header
+            {
+                padding: 0;
+                .card-meta
+                {
+                    a
+                    {
+                        display: inline-block;
+                        margin-right: 5px;
+                        font-weight: 500;
+                        img
+                        {
+                            // width: 125px;
+                            max-width: 125px;
+                            height: 20px;
+                        }
+                    }
+                }
+
+                .card-title
+                {
+                    font-family: $font-family-sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #6b707f;
+                    line-height: 22px;
+                    transition: color 0.2s linear;
+
+                    &:after
+                    {
+                        position: absolute;
+                        content: "";
+                        bottom: 0;
+                        left: 0;
+                        width: 0;
+                        height: 2px;
+                        background: currentColor;
+                        -webkit-transition: 0.3s;
+                        transition: 0.3s;
+                    }
+
+                    &:hover
+                    {
+                        &:after
+                        {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.news
+        {
+            li
+            {
+
+                a
+                {
+                    &:hover
+                    {
+                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .learn_btn {
+        font-size: 14px;
+        font-weight: 500;
+        color: #1d2746;
+        padding-top: 5px;
+        transition: color 0.2s linear;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-box {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        // background: lighten($secondary, 36);
+        transition: ease-in-out 0.3s;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+
+        i {
+            font-size: 32px;
+            padding-right: 10px;
+            line-height: 1;
+        }
+
+        h3 {
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            font-size: 16px;
+            a {
+                color: darken($secondary, 36);
+                transition: ease-in-out 0.3s;
+                &:hover {
+                    color: darken($secondary, 40);
+                }
+            }
+        }
+        &:hover {
+            background: lighten($secondary, 34);
+        }
+    }

@@ -1,0 +1,134 @@
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team
+{
+    background: #fff;
+    @media (min-width: 1024px) {
+        padding-bottom: 30px;
+    }
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: 575.98px) {
+        padding-bottom: 0;
+    }
+
+    .section-title
+    {
+        padding-bottom: 25px;
+    }
+
+
+    [class^=col-]
+    {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .member
+    {
+        text-align: center;
+        margin-bottom: 44px !important;
+        position: relative;
+
+        .pic
+        {
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        img
+        {
+            transition: all ease-in-out 0.4s;
+        }
+
+        &:hover
+        {
+            img
+            {
+                transform: scale(1.1);
+            }
+        }
+
+        .member-info
+        {
+            position: absolute;
+            bottom: -44px;
+            left: 0px;
+            right: 0px;
+            background: rgba($white, .9);
+            padding: 15px 0;
+            border-radius: 0 0 4px 4px;
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+
+            .ico
+            {
+                display: block;
+                height: 1.2rem;
+                &:hover {
+                    opacity: .6;
+                }
+            }
+
+            [class*=" icofont-"],
+            [class^=icofont-]
+            {
+                font-size: 1.2rem;
+                color: darken($secondary, 40);
+                margin-right: 7px;
+            }
+        }
+
+        h4
+        {
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: darken($default-color, 40);
+            position: relative;
+            padding-bottom: 10px;
+            &:after
+            {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 50px;
+                height: 1px;
+                background: darken($default-color, 10);
+                bottom: 0;
+                left: calc(50% - 25px);
+            }
+        }
+
+        span
+        {
+            font-style: italic;
+            font-size: 13px;
+            color: darken($default-color, 40);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .social
+        {
+            margin-top: 10px;
+            a
+            {
+                transition: color 0.3s;
+                color: darken($default-color, 40);
+                &:hover
+                {
+                    color: $primary;
+                }
+
+            }
+
+            i
+            {
+                font-size: 16px;
+                margin: 0 2px;
+            }
+        }
+    }
+}

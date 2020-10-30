@@ -1,0 +1,316 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    height: 140px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: rgba(darken($secondary, 35), 0.9);
+
+    @media (max-width: 992px) {
+        height: 64px;
+    }
+
+    button {
+        border: none;
+        background: transparent;
+        &:focus {
+            outline: none;
+        }
+    }
+    &.header-transparent {
+        background: transparent;
+    }
+
+    &.header-scrolled
+    {
+        // background: rgba(darken($secondary, 35), 0.9);
+        background-color: $default-color;
+        height: 60px;
+
+        .logo
+        {
+            @media (min-width: 992px) {
+                a, button {
+                    width: 88px;
+                    height: 42px;
+                    overflow: hidden;
+                    display: block;
+                    margin-top: -4px;
+
+                    img {
+                        width: 100%;
+                        height: 50px;
+                        max-height: auto !important;
+                        margin-top: 2px;
+                    }
+                }
+            }
+            // img
+            // {
+            //     max-height: 50px;
+            // }
+        }
+    }
+
+    .logo
+    {
+
+        h1
+        {
+            font-size: 28px;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            font-weight: 700;
+
+            @media (max-width: 992px) {
+                font-size: 28px;
+
+            }
+
+            a,
+            a:hover
+            {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+
+        img
+        {
+            padding: 0;
+            margin: 0;
+            max-height: 80px;
+
+            // Extra small devices (portrait phones, less than 576px)
+            @media (max-width: 575.98px) {
+              max-height: 40px;
+            }
+
+            // Small devices (landscape phones, 576px and up)
+            @media (min-width: 576px) and (max-width: 767.98px) {
+              max-height: 50px;
+            }
+
+            // Medium devices (tablets, 768px and up)
+            @media (min-width: 768px) and (max-width: 991.98px) {
+              max-height: 50px;
+            }
+
+        }
+    }
+
+
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/* Desktop Navigation */
+.nav-menu
+{
+
+    &, * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    >
+    ul
+    {
+        > li
+        {
+            position: relative;
+            white-space: nowrap;
+            float: left;
+        
+
+            a, button
+            {
+                display: block;
+                position: relative;
+                color: rgba($white, .7);
+                padding: 10px 0 10px 25px;
+                transition: 0.3s;
+                font-size: 15px; 
+                font-weight: 500;
+                font-family: $font-secondary;
+                
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 0;
+                    height: 2px;
+                    bottom: 3px;
+                    left: 25px;
+                    background-color: $primary;
+                    visibility: hidden;
+                    width: 0px;
+                    transition: all 0.3s ease-in-out 0s;
+                }
+                &.invisible {
+                    &:before {
+                        background-color: transparent;
+                    }
+                }
+            }
+
+            &:hover > a:before,
+            &.active > a:before,
+            a:hover:before,
+            &:hover > button:before,
+            &.active > button:before,
+            button:hover:before
+            {
+                visibility: visible;
+                width: 25px;
+            }
+  
+            &:hover > a,
+            a:hover,
+            .active > a,
+            &:hover > button,
+            button:hover,
+            .active > button
+            {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+  .nav-menu .drop-down {
+
+    .drop-down ul {
+      left: -90%;
+    }
+
+    .drop-down:hover > ul {
+      left: -100%;
+    }
+
+    .drop-down > a:after {
+      content: "\ea9d"; 
+    }
+  }
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+  i {
+    color: $white;
+  }
+
+}
+$mobile_nav_spacing: 15px;
+
+.mobile-nav {
+  position: fixed;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  z-index: 9999;
+  overflow-y: auto;
+  background: #fff;
+  transition: ease-in-out 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 10px;
+  padding: 10px 0;
+
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a, button {
+    display: block;
+    position: relative;
+    color: darken($secondary, 40);
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+  }
+
+  a:hover,
+  .active > a,
+  li:hover > a,
+  button:hover,
+  .active > button,
+  li:hover > button
+   {
+    color: $primary;
+    text-decoration: none;
+  }
+
+  .drop-down > a:after {
+    content: "\ea99"; 
+    font-family: IcoFont;
+    padding-left: 10px; 
+    position: absolute;
+    right: 15px;
+  }
+
+  .active.drop-down > a:after {
+    content: "\eaa1";
+  }
+  
+  .drop-down > a {
+    padding-right: 35px;
+  }
+  
+  .drop-down ul {
+    display: none;
+    overflow: hidden;
+  }
+
+  .drop-down li {
+    padding-left: 20px;
+  }
+}
+
+.mobile-nav-overly {
+  width:100%;
+  height:100%;
+  z-index:9997;
+  top:0;
+  left:0;
+  position:fixed;
+  background: rgba(darken($default-color, 10), 0.6);
+  overflow: hidden;
+  display: none;
+  transition: ease-in-out 0.2s;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+
+  .mobile-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .mobile-nav-toggle i {
+    color: #fff;
+  }
+}

@@ -1,0 +1,73 @@
+/*--------------------------------------------------------------
+# Stamps
+--------------------------------------------------------------*/
+.selos {
+
+    // padding: 0;
+    // background-color: $white;
+    // @media (min-width: 1024px) {
+    //     &:before {
+    //         content: "";
+    //         width: 100%;
+    //         height: 75px;
+    //         display: block;
+    //         background-color:  #ffdf50;
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //     }
+    // }
+    // display: none;
+
+    // &:before {
+    //     position: absolute;
+    //     top: 60px;
+    //     bottom: 60px;
+    //     left: 7px;
+    //     height: calc(100%-60px);
+    //     width: 1px;
+    //     background-color: #dddddd;
+    //     content: "";
+    // }
+    .bg-selos {
+        // background-image: url(../img/selos/bg_selos.png);
+        // position: relative;
+        // background-position-y: bottom;
+        // background-size: contain;
+
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) and (max-width: 991.98px) {
+
+
+        }
+
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            
+        }
+
+        @media (max-width: 768px) {
+            background-size: 100% 50%;
+        }
+
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 575.98px) {
+            background-size: 100% 25%;
+        }
+
+        // extra mobile
+        @media (max-width: 320px) {
+
+        }
+    }
+    
+
+    .container {
+
+        [class^=col-]
+        {
+
+        }
+    }
+
+}

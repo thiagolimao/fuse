@@ -1,0 +1,263 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    background: url("../img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+
+    padding: 13rem 0 0 0;
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+        padding-top: 18rem;
+    }
+
+    @media (min-width: 1024px) {
+        background-attachment: fixed;
+    }
+
+    // extra mobile
+    @media (max-width: 320px) {
+        padding-top: 9rem;
+    }
+
+
+    &:before {
+        content: "";
+        background: rgba(darken($default-color, 30), 0.5);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .hero-info
+    {
+        padding-top: 0;
+        padding-bottom: 5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+
+
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) {
+            padding-bottom: 14rem;
+        }
+
+        // extra mobile
+        @media (max-width: 320px) {
+            padding-bottom: 2rem;
+        }
+
+
+        h1 {
+            margin: 0;
+            color: rgba($white, .4);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            flex-direction: column;
+
+            font-size: 5.5rem;
+            font-weight: 700;
+            line-height: 8rem;
+            letter-spacing: 5rem;
+            margin-right: -5rem;
+
+            // Extra large devices (large desktops, 1200px and up)
+            @media (min-width: 1200px) {
+
+            }
+
+            // Large devices (desktops, 992px and up)
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+
+            }
+
+            // Medium devices (tablets, 768px and up)
+            @media (min-width: 768px) and (max-width: 991.98px) {
+
+                font-size: 5rem;
+                line-height: 7rem;
+                letter-spacing: 2rem;
+                margin-right: -2rem;
+
+            }
+
+            // Small devices (landscape phones, 576px and up)
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                font-size: 5rem;
+                line-height: 7rem;
+                letter-spacing: 2rem;
+                margin-right: -2rem;
+            }
+
+            // Extra small devices (portrait phones, less than 576px)
+            @media (max-width: 575.98px) {
+
+                font-size: 3rem;
+                line-height: 3rem;
+                letter-spacing: 1rem;
+                margin-right: -1rem;
+
+            }
+
+            // extra mobile
+            @media (max-width: 320px) {
+              font-size: 1.8rem;
+            }
+        }
+    }
+
+    .hero-link
+    {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 575.98px) {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h2
+        {
+            color: rgba($white, .8);
+            margin-bottom: 0;
+            font-size: 24px;
+
+            // Extra small devices (portrait phones, less than 576px)
+            @media (max-width: 575.98px) {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .btn-get-started
+        {
+            font-family: $font-primary;
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 1px;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 50px;
+            transition: 0.5s;
+            color: #fff;
+            background: transparent;
+
+            border: solid 1px rgba($white, .4);
+
+            &:hover
+            {
+                border: solid 1px rgba($white, 1);
+                text-decoration: none;
+            }
+        }
+
+        .btn
+        {
+            font-family: $font-primary;
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 1px;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 50px;
+            transition: 0.5s;
+            color: $white;
+            background-color: rgba($default-color, .8);
+
+            // Extra small devices (portrait phones, less than 576px)
+            @media (max-width: 575.98px) {
+                margin-left: 0 !important;
+                margin-top: 1rem;   
+            }
+            &:hover
+            {
+                background-color: rgba($default-color, 1);
+                // font-weight: bold;
+            }
+        }
+    }
+
+    .animated {
+        animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    }
+
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero-waves  {
+  display: block;
+  // margin-top: 2rem;
+  width: 100%;
+  height: 60px;
+  //max-height: 60px;
+  z-index:5;
+  position: relative;
+}
+
+.wave1 use {
+  animation: move-forever1 10s linear infinite;
+  animation-delay: -2s;
+}
+.wave2 use {
+  animation: move-forever2 8s linear infinite;
+  animation-delay: -2s;
+}
+
+.wave3 use {
+  animation: move-forever3 6s linear infinite;
+  animation-delay: -2s;
+}
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+
