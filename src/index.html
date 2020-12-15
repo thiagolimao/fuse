@@ -1,55 +1,141 @@
 {% extends "template.html" %}
+{% block lang %}
+<html data-attr-t lang-t="LANGUAGE">
+{% endblock %}
 
 {% set page ='home' %}
 
 {% block meta %}
-<title>Fuse</title>
+<title>Fuse Capital</title>
 {% endblock %}
 
 {% block content %}
 
-{% include "parts/hero.html" %}
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center">
 
-<main id="main">
+            <div class="logo mr-auto">
+                <a href="index.html"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>
+            </div><!-- /logo -->
 
-    {% include "parts/about-section.html" %}
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active">
+                        <a href="#header" title="Home" class="invisible">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" title="Como atuamos" class="invisible">Como atuamos</a>
+                    </li>
+                    
+                    <li><a href=""data-t>EXAMPLE.HELLO</a> </li>
+                    <li><a href=""data-t>EXAMPLE.WORLD</a> </li>
+                    <li>
+                        <a href="#portfolio" title="Portfólio">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="#team" title="Time">Time</a>
+                    </li>
+                    <li>
+                        <a href="#files" title="Arquivos">Arquivos</a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="Fale conosco">Contato</a>
+                    </li>
+                    <li>
+                        <!-- <a href="" title="">Políticas e Manuais</a> -->
+                        <button type="button" class="" data-toggle="modal" data-target="#exampleModalCenter">
+                            Políticas e Manuais
+                        </button>
+                    </li>
+                </ul>
+            </nav><!-- .nav-menu -->
 
-    {% include "parts/quote-section.html" %}
+        </div><!-- /container -->
+    </header><!-- End Header -->
 
-    {% include "parts/portfolio-section.html" %}
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 hero-info">
+                    <div data-aos="zoom-out" class="w-100">
+                        <h1>
+                            <span>Venture</span> Capital
+                        </h1>
+                    </div><!-- /zoom-out -->
+                </div><!-- /col -->
+
+                <div class="col-lg-12 hero-link justify-content-center" data-aos="zoom-out" data-aos-delay="300">
+
+                    <a href="#portfolio" title="Ver investimentos" class="btn-get-started scrollto">
+                        Ver investimentos
+                    </a>
+
+                    <a href="https://fusecapital.typeform.com/to/psKMdAcl" title="Envie sua Start-up" target="_blank" class="btn btn-black ml-3">
+                        Envie sua Start-up
+                    </a>
+
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+            <defs><path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></defs>
+            <g class="wave1"><use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)"></g>
+            <g class="wave2"><use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)"></g>
+            <g class="wave3"><use xlink:href="#wave-path" x="50" y="9" fill="#fff"></g>
+        </svg>
+
+    </section><!-- End Hero --> 
+
+    <main id="main">
+
+        {% include "parts/about-section.html" %}
+
+        {% include "parts/quote-section.html" %}
+
+        {% include "parts/portfolio-section.html" %}
 
 
-    <div class="container">
-        <div class="row">    
-            <div class="col-md-10 col-12">
-                {% include "parts/team-section.html" %}
-            </div>
+        <div class="container">
+            <div class="row">    
+                <div class="col-md-10 col-12">
+                    {% include "parts/team-section.html" %}
+                </div>
 
-            <div class="col-md-2 content-sticky d-none d-lg-block" data-aos="zoom-in" data-aos-delay="100">
-                <div class="element-sticky">
-                    <img src="assets/img/simbolo.png" alt="">
+                <div class="col-md-2 content-sticky d-none d-lg-block" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="element-sticky">
+                        <img src="assets/img/simbolo.png" alt="">
+                    </div>
                 </div>
             </div>
+
+            <div class="row" id="files">    
+                <div class="col-md-8 col-12">
+                    {% include "parts/files-section.html" %}
+                </div>
+
+                <div class="col-md-4 col-12">
+                    {% include "parts/stamps-section.html" %}
+                </div>
+                
+            </div>
         </div>
 
-        <div class="row" id="files">    
-            <div class="col-md-8 col-12">
-                {% include "parts/files-section.html" %}
-            </div>
+        {% include "parts/contact-section.html" %}
+        {% include "parts/modal.html" %}
 
-            <div class="col-md-4 col-12">
-                {% include "parts/stamps-section.html" %}
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Fuse Capital</span></strong>. All Rights Reserved
             </div>
-            
         </div>
-    </div>
-
-    {% include "parts/contact-section.html" %}
-    {% include "parts/modal.html" %}
-
-    
-
-
-</main><!-- End #main -->
+    </footer><!-- End Footer -->
 
 {% endblock %}

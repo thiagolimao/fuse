@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- <html lang="en"> -->
-<html data-attr-t lang-t="LANGUAGE"></html>
+{% block lang %}{% endblock %}
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -80,11 +79,7 @@
 
 <body>
 
-    {% include('parts/header.html') %}
-
     {% block content %}{% endblock %}
-
-    {% include "parts/footer.html" %}
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
     <div id="preloader"></div>

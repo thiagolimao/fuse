@@ -1,7 +1,7 @@
 {
     "LANGUAGE": "fr",
     "EXAMPLE": {
-      "Olá": "Bonjour",
-      "Mundo": "le monde"
+      "HELLO": "Bonjour",
+      "WORLD": "le monde"
     }
   }
