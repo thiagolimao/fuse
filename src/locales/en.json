@@ -1,7 +1,117 @@
 {
     "LANGUAGE": "en",
-    "EXAMPLE": {
-      "HELLO": "Hello",
-      "WORLD": "world"
+    "HEADER": {
+        "HOME":                         "Home",
+        "ABOUT":                        "About Us",
+        "PORTFOLIO":                    "Portfolio",
+        "TEAM":                         "Team",
+        "FILES":                        "Files",
+        "CONTACT":                      "Contact",
+        "POLICIES":                     "Policies and Manuals"
+    },
+    "SEC_HERO": {
+        "TITLE":                        "Venture <span>Capital</span>",
+        "LINK_INVEST":                  "Investments",
+        "LINK_STARTUP":                 "Submit your Start-up"
+    },
+    "SEC_ABOUT": {
+        "ABOUT_HEADER_TITLE":           "How we operate",
+        "ABOUT_HEADER_SUBTITLE":        "One Step Ahead of the current Model",
+        "ABOUT_TITLE":                  "We invest innovatively in exponential entrepreneurs.",
+        "ABOUT_DESCRIPTION":            "We always act with the intention of using our strength to add maximum value to the ecosystem, we were born to change the game.",
+        
+        "ABOUT_BOX1_TITLE":             "Hybrid Capital",
+        "ABOUT_BOX1_DESCRIPTION":       "We evaluate opportunities in both equity and debt, providing alternative sources of capital for entrepreneurs and income for our LPs.",
+        
+        "ABOUT_BOX2_TITLE":             "Glass box",
+        "ABOUT_BOX2_DESCRIPTION":       "We have a completely transparent screening and analysis process for LPs, Family Offices and Corporates.",
+        
+        "ABOUT_BOX3_TITLE":             "Smart, then money",
+        "ABOUT_BOX3_DESCRIPTION":       "We seek to add value even before investing, consequently, more than 30% of our deal flow comes from non-invested companies.",
+        
+        "ABOUT_BOX4_TITLE":             "Without labels",
+        "ABOUT_BOX4_DESCRIPTION":       "We support entrepreneurs who seek to exponentialize their business, period. We don't like labels or pre defined boxes."
+    },
+    "SEC_QUOTE": {
+        "QUOTE_CAROUSEL1_CITE":         "Principles connect your values to your actions; they are beacons that guide your actions and help you successfully deal with the laws of reality. It is to your principles that you turn when you face hard choices.",
+        "QUOTE_CAROUSEL1_AUTHOR":       "Ray Dalio",
+        "QUOTE_CAROUSEL1_OFFICE":       "Investor",
+
+        "QUOTE_CAROUSEL2_CITE":         "Uncertainty is something present, desirable and necessary for evolution.",
+        "QUOTE_CAROUSEL2_AUTHOR":       "Nassim Taleb",
+        "QUOTE_CAROUSEL2_OFFICE":       "Investor",
+        
+        "QUOTE_CAROUSEL3_CITE":         "A pessimist sees the difficulty in every opportunity. An optimist sees the opportunity in every difficulty.",
+        "QUOTE_CAROUSEL3_AUTHOR":       "Winston Churchill",
+        "QUOTE_CAROUSEL3_OFFICE":       "former Prime Minister of the United Kingdom",
+
+        "QUOTE_CAROUSEL4_CITE":         "Success is going from failure to failure without losing enthusiasm.",
+        "QUOTE_CAROUSEL4_AUTHOR":       "Winston Churchill",
+        "QUOTE_CAROUSEL4_OFFICE":       "former Prime Minister of the United Kingdom",
+
+        "QUOTE_CAROUSEL5_CITE":         "A man without a purpose is like a ship without a rudder.",
+        "QUOTE_CAROUSEL5_AUTHOR":       "Thomas Carlyle",
+        "QUOTE_CAROUSEL5_OFFICE":       "writer",
+
+        "QUOTE_CAROUSEL6_CITE":         "In the new world, it is not the big fish which eats the small fish, it's the fast fish which eats the slow fish.",
+        "QUOTE_CAROUSEL6_AUTHOR":       "Klauss Schwab",
+        "QUOTE_CAROUSEL6_OFFICE":       "founder of the World Economic Forum"
+    },
+    "SEC_PORTFOLIO": {
+        "PORTFOLIO_HEADER_TITLE":       "Portfolio",
+        "PORTFOLIO_HEADER_SUBTITLE":    "Invested Companies",
+        "PORTFOLIO_HEADER_LINK":        "Submit your Start-up",
+        
+        "PORTFOLIO_BOX1_LINK":          "fligoo.com",
+        "PORTFOLIO_BOX1_DESCRIPTION":   "IA applications targeted at large corporate customers.",
+        "PORTFOLIO_BOX2_LINK":          "pinkapp.com",
+        "PORTFOLIO_BOX2_DESCRIPTION":   "Communication platform for small and medium-sized companies.",
+        "PORTFOLIO_BOX3_LINK":          "aio.com.br",
+        "PORTFOLIO_BOX3_DESCRIPTION":   "IA applied to reduce long mock exams to quick quizes, placing the student on the learning frontier."
+    },
+    "SEC_TEAM": {
+        "TEAM_HEADER_TITLE":            "Team",
+        "TEAM_HEADER_SUBTITLE":         "Our Team",
+
+        "TEAM_TEXT_LINKEDIN":           "Access linkedin from",
+        "TEAM_TEXT_COFOUNDER":          "co-Founder and Member ",
+        "TEAM_TEXT_PARTNER":            "partner",
+        "TEAM_TEXT_ASSOCIATE":          "associate",
+        "TEAM_TEXT_ANALYST":            "analyst"
+    },
+    "SEC_FILES": {
+        "FILES_HEADER_TITLE":           "Files",
+        "FILES_HEADER_SUBTITLE":        "Downloads",
+
+        "FILES_LETTERS_TITLE":          "Letters",
+        "FILES_ARTICLES_TITLE":         "Articles"
+    },
+    "SEC_SEALS": {
+        "SEALS_HEADER_TITLE":           "Seals",
+        "SEALS_HEADER_SUBTITLE":        "abvcap",
+
+        "SEALS_REGULATION_TITLE":       "Self-regulation"
+    },
+    "SEC_CONTACT": {
+        "CONTACT_HEADER_TITLE":         "Contact",
+        "CONTACT_HEADER_SUBTITLE":      "Contact us",
+        
+        "CONTACT_ADDRESS":              "Address",
+        "CONTACT_EMAIL":                "E-mail",
+
+        "CONTACT_FORM_NAME":            "Name",
+        "CONTACT_FORM_EMAIL":           "E-mail",
+        "CONTACT_FORM_SUBJECT":         "Subject",
+        "CONTACT_FORM_MESSAGE":         "Message",
+        "CONTACT_FORM_SEND":            "Submit",
+
+        "CONTACT_LOADING":              "Loading",
+        "CONTACT_SEND_MESSAGE":         "Your message was sent. Thanks!"
+    },
+    "SEC_POLICIES": {
+        "POLICIES_HEADER_TITLE":        "Policies and Manuals"
+    },
+    "FOOTER": {
+        "COPYRIGHT":                    "&copy; Copyright - <strong><span>Fuse Capital</span></strong>. All rights reserved"
     }
-  }
+}

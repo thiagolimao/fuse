@@ -77,6 +77,7 @@
   <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet">
 
   <!-- ==============================================
     CSS
@@ -93,11 +94,6 @@
 
 <body>
 
-  <!--
-    <p data-t>EXAMPLE.HELLO</p>
-    <p data-t>EXAMPLE.WORLD</p>
--->
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center">
@@ -108,31 +104,37 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active">
-            <a href="#header" title="Home" class="invisible">Home</a>
+          <li>
+            <a href="#portfolio" title="Portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#about" title="Como atuamos" class="invisible">Como atuamos</a>
+            <a href="#team" title="Time">Team</a>
           </li>
           <li>
-            <a href="#portfolio" title="Portfólio">Portfólio</a>
+            <a href="#files" title="Arquivos">Files</a>
           </li>
           <li>
-            <a href="#team" title="Time">Time</a>
+            <a href="#contact" title="Fale conosco">Contact</a>
           </li>
           <li>
-            <a href="#files" title="Arquivos">Arquivos</a>
-          </li>
-          <li>
-            <a href="#contact" title="Fale conosco">Contato</a>
-          </li>
-          <li>
-            <!-- <a href="" title="">Políticas e Manuais</a> -->
             <button type="button" class data-toggle="modal" data-target="#exampleModalCenter">
-              Políticas e Manuais
+              <span>Policies and Manuals</span>
             </button>
           </li>
+          <li class="drop-down drop-lang" id="lang-pt">
+            <a class="nav-link dropdown-toggle" href="../" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-br"> </span></a>
+            <div class="dropdown-menu" aria-labelledby="dropdown09">
+              <a class="dropdown-item" href="/en"><span class="flag-icon flag-icon-us"> </span></a>
+            </div>
+          </li>
+          <li class="nav-item dropdown drop-lang" id="lang-en">
+            <a class="nav-link dropdown-toggle" href="/en" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span></a>
+            <div class="dropdown-menu" aria-labelledby="dropdown09">
+              <a class="dropdown-item" href="../"><span class="flag-icon flag-icon-br"> </span></a>
+            </div>
+          </li>
         </ul>
+
       </nav><!-- .nav-menu -->
 
     </div><!-- /container -->
@@ -145,20 +147,18 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 hero-info">
           <div data-aos="zoom-out" class="w-100">
-            <h1>
-              <span>Venture</span> Capital
-            </h1>
+            <h1>Venture <span>Capital</span></h1>
           </div><!-- /zoom-out -->
         </div><!-- /col -->
 
         <div class="col-lg-12 hero-link justify-content-center" data-aos="zoom-out" data-aos-delay="300">
 
           <a href="#portfolio" title="Ver investimentos" class="btn-get-started scrollto">
-            Ver investimentos
+            <span>Investments</span>
           </a>
 
           <a href="https://fusecapital.typeform.com/to/psKMdAcl" title="Envie sua Start-up" target="_blank" class="btn btn-black ml-3">
-            Envie sua Start-up
+            <span>Submit your Start-up</span>
           </a>
 
         </div><!-- /col -->
@@ -189,80 +189,53 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>
-            Como atuamos
-          </h2>
-          <p>
-            Um passo adiante do modelo atual
-          </p>
+          <h2>How we operate</h2>
+          <p>One Step Ahead of the current Model</p>
         </div><!-- /section-title -->
 
         <div class="row" data-aos="fade-up">
           <div class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-stretch justify-content-center mb-5" data-aos="fade-left">
-            <h3>
-              Investimos de forma inovadora em empreendedores exponenciais.
-            </h3>
-            <p>
-              Estamos constantemente investindo em empreendedores que buscam transformar mercados, pensando fora da caixa. Atuamos sempre com o intuito de utilizar nossa força para agregar o máximo de valor ao ecossistema, nascemos para mudar o jogo.
-            </p>
+            <h3>We invest innovatively in exponential entrepreneurs.</h3>
+            <p>We always act with the intention of using our strength to add maximum value to the ecosystem, we were born to change the game.</p>
           </div><!-- /col -->
 
           <div class="col-lg-3 col-md-6">
             <div class="count-box">
               <div class="icon-right">
-                <img class="ico" src="/assets/img/icon/mixer-brands.svg" alt="">
+                <img class="ico" src="/assets/img/icon/mixer-brands.svg" alt>
               </div>
-              <!-- <span data-toggle="counter-up">
-                        232
-                    </span> -->
-              <h3>
-                Capital híbrido
-              </h3>
-              <p>
-                Avaliamos oportunidades tanto em equity quanto em dívida, provendo fontes alternativas de capital para empreendedores e renda a nossos LPs.
-              </p>
+              <h3>Hybrid Capital</h3>
+              <p>We evaluate opportunities in both equity and debt, providing alternative sources of capital for entrepreneurs and income for our LPs.</p>
             </div><!-- /count-box -->
           </div><!-- /col -->
 
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <div class="icon-right">
-                <img class="ico" src="/assets/img/icon/cube-isometric.svg" alt="">
+                <img class="ico" src="/assets/img/icon/cube-isometric.svg" alt>
               </div>
-              <h3>
-                Glass box
-              </h3>
-              <p>
-                Contamos com um processo de análise e triagem totalmente transparente para LPs, Family Offices e Corporates.
-              </p>
+              <h3>Glass box</h3>
+              <p>We have a completely transparent screening and analysis process for LPs, Family Offices and Corporates.</p>
             </div><!-- /count-box -->
           </div><!-- /col -->
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <div class="icon-right">
-                <img class="ico" src="/assets/img/icon/brain-solid.svg" alt="">
+                <img class="ico" src="/assets/img/icon/brain-solid.svg" alt>
               </div>
-              <h3>
-                Smart, then money
-              </h3>
-              <p>
-                Buscamos agregar valor antes mesmo de investir, consequentemente mais de 30% de nosso dealflow vem de empresas não investidas.
-              </p>
+              <h3>Smart, then money</h3>
+              <p>We seek to add value even before investing, consequently, more than 30% of our deal flow comes from non-invested companies.</p>
             </div><!-- /count-box -->
           </div><!-- /col -->
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <div class="icon-right">
-                <img class="ico" src="/assets/img/icon/times-circle-regular.svg" alt="">
+                <img class="ico" src="/assets/img/icon/times-circle-regular.svg" alt>
               </div>
-              <h3>
-                Sem rótulos
-              </h3>
-              <p>
-                Apoiamos empreendedores que buscam exponencializar seus negócios, ponto. Não gostamos de rótulos e nem de caixinhas.
-              </p>
+              <h3>Without labels</h3>
+              <p>We support entrepreneurs who seek to exponentialize their business, period. We don't like labels or pre defined boxes.</p>
             </div><!-- /count-box -->
           </div><!-- /col -->
         </div><!-- /row -->
@@ -278,56 +251,44 @@
           <div class="col-md-5"></div>
           <div class="col-md-7" id="blockquoteContent">
             <blockquote class="blockquote blockquote-home">
-              <p>
-                Principles connect your values to your actions; they are beacons that guide your actions and help you successfully deal with the laws of reality. It is to your principles that you turn when you face hard choices.
-              </p>
+              <p>Principles connect your values to your actions; they are beacons that guide your actions and help you successfully deal with the laws of reality. It is to your principles that you turn when you face hard choices.</p>
               <footer class="blockquote-footer">
-                Ray Dalio, <cite title="Source Title">Investor</cite>
+                <span>Ray Dalio</span>, <cite title="Source Title">Investor</cite>
               </footer>
             </blockquote>
 
             <blockquote class="blockquote blockquote-home">
-              <p class="mb-0">
-                Uncertainty is something present, desirable and necessary for evolution.
-              </p>
+              <p>Uncertainty is something present, desirable and necessary for evolution.</p>
               <footer class="blockquote-footer">
-                Nassim Taleb, <cite title="Source Title">Investor</cite>
+                <span>Nassim Taleb</span>, <cite title="Source Title">Investor</cite>
               </footer>
             </blockquote>
 
             <blockquote class="blockquote blockquote-home">
-              <p class="mb-0">
-                A pessimist sees the difficulty in every opportunity. An optimist sees the opportunity in every difficulty.
-              </p>
+              <p>A pessimist sees the difficulty in every opportunity. An optimist sees the opportunity in every difficulty.</p>
               <footer class="blockquote-footer">
-                Winston Churchill, <cite title="Source Title">former Prime Minister of the United Kingdom</cite>
+                <span>Winston Churchill</span>, <cite title="Source Title">former Prime Minister of the United Kingdom</cite>
               </footer>
             </blockquote>
 
             <blockquote class="blockquote blockquote-home">
-              <p class="mb-0">
-                Success is going from failure to failure without losing enthusiasm.
-              </p>
+              <p>Success is going from failure to failure without losing enthusiasm.</p>
               <footer class="blockquote-footer">
-                Winston Churchill, <cite title="Source Title">former Prime Minister of the United Kingdom</cite>
+                <span>Winston Churchill</span>, <cite title="Source Title">former Prime Minister of the United Kingdom</cite>
               </footer>
             </blockquote>
 
             <blockquote class="blockquote blockquote-home">
-              <p class="mb-0">
-                A man without a purpose is like a ship without a rudder.
-              </p>
+              <p>A man without a purpose is like a ship without a rudder.</p>
               <footer class="blockquote-footer">
-                Thomas Carlyle, <cite title="Source Title">writer</cite>
+                <span>Thomas Carlyle</span>, <cite title="Source Title">writer</cite>
               </footer>
             </blockquote>
 
             <blockquote class="blockquote blockquote-home">
-              <p class="mb-0">
-                In the new world, it is not the big fish which eats the small fish, it's the fast fish which eats the slow fish.
-              </p>
+              <p>In the new world, it is not the big fish which eats the small fish, it's the fast fish which eats the slow fish.</p>
               <footer class="blockquote-footer">
-                Klauss Schwab, <cite title="Source Title">founder of the World Economic Forum</cite>
+                <span>Klauss Schwab</span>, <cite title="Source Title">founder of the World Economic Forum</cite>
               </footer>
             </blockquote>
           </div>
@@ -342,10 +303,10 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Portfolio</h2>
-          <p>Empresas investidas</p>
+          <p>Invested Companies</p>
 
           <a href="https://fusecapital.typeform.com/to/psKMdAcl" title="Envie sua Start-up" target="_blank" class="btn btn-title">
-            Envie sua Start-up
+            <span>Submit your Start-up</span>
           </a>
         </div><!-- /section-title -->
 
@@ -359,9 +320,7 @@
                   <!-- 01 -->
                   <img src="/assets/img/portfolio/logo-fligoo.png" alt="Fligoo">
                 </h2>
-                <p>
-                  Aplicações de IA direcionada a grandes clientes corporativos.
-                </p>
+                <p>IA applications targeted at large corporate customers.</p>
               </span>
               <a class="btn btn-underline btn-primary" href="https://www.fligoo.com" target="_blank">
                 <span class="text">fligoo.com</span>
@@ -377,9 +336,7 @@
                   <!-- 02 -->
                   <img src="/assets/img/portfolio/logo-pink.png" alt="Pink">
                 </h2>
-                <p>
-                  Plataforma de comunicação para pequenas e médias empresas
-                </p>
+                <p>Communication platform for small and medium-sized companies.</p>
               </span>
               <a class="btn btn-underline btn-primary" href="https://www.pinkapp.com" target="_blank">
                 <span class="text">pinkapp.com</span>
@@ -394,9 +351,7 @@
                 <h2 class="title-icon">
                   <img src="/assets/img/portfolio/logo-aio.png" alt="AIO">
                 </h2>
-                <p>
-                  IA aplicada para reduzir grandes provas em poucas perguntas, posicionando o estudante na fronteira do aprendizado.
-                </p>
+                <p>IA applied to reduce long mock exams to quick quizes, placing the student on the learning frontier.</p>
               </span>
               <a class="btn btn-underline btn-primary" href="https://www.aio.com.br" target="_blank">
                 <span class="text">aio.com.br</span>
@@ -412,17 +367,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-12">
+
           <!-- ======= Team Section ======= -->
           <section id="team" class="team">
             <!-- <div class="container"> -->
-
             <div class="section-title" data-aos="fade-up">
-              <h2>
-                Time
-              </h2>
-              <p>
-                Nossa equipe
-              </p>
+              <h2>Team</h2>
+              <p>Our Team</p>
             </div><!-- /section-title -->
             <!-- </div> -->
 
@@ -432,14 +383,14 @@
               <div class="col-lg-4 col-md-6">
                 <div class="member" data-aos="zoom-in" data-aos-delay="100">
                   <div class="pic">
-                    <img src="/assets/img/team/team-alexis.png" class="img-fluid" alt="">
+                    <img src="/assets/img/team/team-alexis.png" class="img-fluid" alt>
                   </div><!-- /pic -->
                   <div class="member-info">
                     <h4>
                       Alexis Terrin
                     </h4>
                     <span>
-                      <a href="https://www.linkedin.com/in/alexis-terrin-131451187/" target="_blank" title="Acessar linkedin do Alexis Terrin" class="ico"><i class="icofont-linkedin"></i></a> co-fundador e sócio
+                      <a href="https://www.linkedin.com/in/alexis-terrin-131451187/" target="_blank" title="Acessar linkedin do Alexis Terrin" class="ico"><i class="icofont-linkedin"></i></a> <span>co-Founder and Member </span>
                     </span>
                   </div><!-- /member-info -->
                 </div><!-- /member -->
@@ -448,14 +399,14 @@
               <div class="col-lg-4 col-md-6">
                 <div class="member" data-aos="zoom-in" data-aos-delay="200">
                   <div class="pic">
-                    <img src="/assets/img/team/team-guilherme.png" class="img-fluid" alt="">
+                    <img src="/assets/img/team/team-guilherme.png" class="img-fluid" alt>
                   </div><!-- /pic -->
                   <div class="member-info">
                     <h4>
                       Guilherme Hug
                     </h4>
                     <span>
-                      <a href="https://www.linkedin.com/in/guilherme-hug-17977b14/" target="_blank" title="Acessar linkedin do Guilherme Hug" class="ico"><i class="icofont-linkedin"></i></a> co-fundador e sócio
+                      <a href="https://www.linkedin.com/in/guilherme-hug-17977b14/" target="_blank" title="Acessar linkedin do Guilherme Hug" class="ico"><i class="icofont-linkedin"></i></a> <span>co-Founder and Member </span>
                     </span>
                   </div><!-- /member-info -->
                 </div><!-- /member -->
@@ -464,14 +415,14 @@
               <div class="col-lg-4 col-md-6">
                 <div class="member" data-aos="zoom-in" data-aos-delay="300">
                   <div class="pic">
-                    <img src="/assets/img/team/team-joao.png" class="img-fluid" alt="">
+                    <img src="/assets/img/team/team-joao.png" class="img-fluid" alt>
                   </div><!-- /pic -->
                   <div class="member-info">
                     <h4>
                       João Zecchin
                     </h4>
                     <span>
-                      <a href="https://www.linkedin.com/in/joao-zecchin-75705428/" target="_blank" title="Acessar linkedin do João Zecchin" class="ico"><i class="icofont-linkedin"></i></a> co-fundador e sócio
+                      <a href="https://www.linkedin.com/in/joao-zecchin-75705428/" target="_blank" title="Acessar linkedin do João Zecchin" class="ico"><i class="icofont-linkedin"></i></a> <span>co-Founder and Member </span>
                     </span>
                   </div><!-- /member-info -->
                 </div><!-- /member -->
@@ -480,14 +431,14 @@
               <div class="col-lg-4 col-md-6">
                 <div class="member" data-aos="zoom-in" data-aos-delay="400">
                   <div class="pic">
-                    <img src="/assets/img/team/team-dan.png" class="img-fluid" alt="">
+                    <img src="/assets/img/team/team-dan.png" class="img-fluid" alt>
                   </div><!-- /pic -->
                   <div class="member-info">
                     <h4>
                       Dan Yamamura
                     </h4>
                     <span>
-                      <a href="https://www.linkedin.com/in/dan-yamamura-8272b9/" target="_blank" title="Acessar linkedin do Dan Yamamura" class="ico"><i class="icofont-linkedin"></i></a> sócio
+                      <a href="https://www.linkedin.com/in/dan-yamamura-8272b9/" target="_blank" title="Acessar linkedin do Dan Yamamura" class="ico"><i class="icofont-linkedin"></i></a> <span>partner</span>
                     </span>
                   </div><!-- /member-info -->
                 </div><!-- /member -->
@@ -496,14 +447,14 @@
               <div class="col-lg-4 col-md-6">
                 <div class="member" data-aos="zoom-in" data-aos-delay="500">
                   <div class="pic">
-                    <img src="/assets/img/team/team-maria.png" class="img-fluid" alt="">
+                    <img src="/assets/img/team/team-maria.png" class="img-fluid" alt>
                   </div><!-- /pic -->
                   <div class="member-info">
                     <h4>
                       Maria Beatriz de Orleans e Bragança
                     </h4>
                     <span>
-                      <a href="https://www.linkedin.com/in/maria-beatriz-de-orleans-e-bragança-024242116/" target="_blank" title="Acessar linkedin da Maria Beatriz Orleans e Bragança" class="ico"><i class="icofont-linkedin"></i></a> associada
+                      <a href="https://www.linkedin.com/in/maria-beatriz-de-orleans-e-bragança-024242116/" target="_blank" title="Acessar linkedin da Maria Beatriz Orleans e Bragança" class="ico"><i class="icofont-linkedin"></i></a> <span>associate</span>
                     </span>
                   </div><!-- /member-info -->
                 </div><!-- /member -->
@@ -512,14 +463,14 @@
               <div class="col-lg-4 col-md-6">
                 <div class="member" data-aos="zoom-in" data-aos-delay="600">
                   <div class="pic">
-                    <img src="/assets/img/team/team-michele.png" class="img-fluid" alt="">
+                    <img src="/assets/img/team/team-michele.png" class="img-fluid" alt>
                   </div><!-- /pic -->
                   <div class="member-info">
                     <h4>
                       Michele Azevedo
                     </h4>
                     <span>
-                      <a href="https://www.linkedin.com/in/micheleazevedo/" target="_blank" title="Acessar linkedin da Michele Azevedo" class="ico"><i class="icofont-linkedin"></i></a> associada
+                      <a href="https://www.linkedin.com/in/micheleazevedo/" target="_blank" title="Acessar linkedin da Michele Azevedo" class="ico"><i class="icofont-linkedin"></i></a> <span>associate</span>
                     </span>
                   </div><!-- /member-info -->
                 </div><!-- /member -->
@@ -528,14 +479,14 @@
               <div class="col-lg-4 col-md-6">
                 <div class="member" data-aos="zoom-in" data-aos-delay="600">
                   <div class="pic">
-                    <img src="/assets/img/team/team-jose.png" class="img-fluid" alt="">
+                    <img src="/assets/img/team/team-jose.png" class="img-fluid" alt>
                   </div><!-- /pic -->
                   <div class="member-info">
                     <h4>
                       José Gabriel Bernardes
                     </h4>
                     <span>
-                      <a href="https://www.linkedin.com/in/jose-gabriel-bernardes-51637012a/" target="_blank" title="Acessar linkedin do José Gabriel Bernardes" class="ico"><i class="icofont-linkedin"></i></a> analista
+                      <a href="https://www.linkedin.com/in/jose-gabriel-bernardes-51637012a/" target="_blank" title="Acessar linkedin do José Gabriel Bernardes" class="ico"><i class="icofont-linkedin"></i></a> <span>analyst</span>
                     </span>
                   </div><!-- /member-info -->
                 </div><!-- /member -->
@@ -557,99 +508,95 @@
 
       <div class="row" id="files">
         <div class="col-md-8 col-12">
+
           <!-- ======= Files Section ======= -->
           <section id="files" class="files">
             <!-- <div class="container"> -->
 
             <div class="section-title" data-aos="fade-up">
-              <h2>
-                Arquivos
-              </h2>
-              <p>
-                Downloads
-              </p>
-            </div>
+              <h2>Files</h2>
+              <p>Downloads</p>
+            </div><!-- /section-title -->
 
             <div class="row" data-aos="fade-left">
 
               <div class="col-lg-6 col-sm-6">
                 <div class="doc_tag_item" data-aos="zoom-in" data-aos-delay="200">
                   <div class="doc_tag_title">
-                    <h4>Cartas</h4>
+                    <h4>Letters</h4>
                     <div class="line"></div>
                   </div><!-- /doc_tag_title -->
                   <ul class="list-unstyled tag_list">
                     <li>
                       <a target="_blank" href="/assets/pdf/Fuse_Carta_2020_Q4_PORT.pdf" download="O Cravo">
-                        <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                           <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                           <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
                         </svg>
                         <span>
-                          <time class="">2020/Q4</time>
+                          <time class>2020/Q4</time>
                           <i>O Cravo </i>
                         </span>
                       </a>
                     </li>
                     <li>
                       <a target="_blank" href="/assets/pdf/Fuse_Carta_2020_Q3_PORT.pdf" download="The invisible gorilla">
-                        <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                           <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                           <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
                         </svg>
                         <span>
-                          <time class="">2020/Q3</time>
+                          <time class>2020/Q3</time>
                           <i>The invisible gorilla </i>
                         </span>
                       </a>
                     </li>
                     <li>
                       <a target="_blank" href="https://drive.google.com/file/d/1gEwfZpoNvmyWTnbP7Gv-9nOZG8Z2RJoT/view?usp=sharing" download="Alea Jacta Est">
-                        <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                           <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                           <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
                         </svg>
                         <span>
-                          <time class="">2020/T2</time>
+                          <time class>2020/T2</time>
                           <i>Alea Jacta Est </i>
                         </span>
                       </a>
                     </li>
                     <li>
                       <a target="_blank" href="https://drive.google.com/file/d/1WYzyz3SQuc7bfz9GLyN2AlSrnZzRr3iv/view?usp=sharing" download="Em terra de cisne negro, o que nasce é unicórnio">
-                        <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                           <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                           <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
                         </svg>
                         <span>
-                          <time class="">2020/T1</time>
+                          <time class>2020/T1</time>
                           <i>Em terra de cisne negro, o que nasce é unicórnio </i>
                         </span>
                       </a>
                     </li>
                   </ul>
                   <!-- <a href="" class="learn_btn">
-                        Ver todos
-                        <svg width="1.4em" height="1.4em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
-                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
-                        </svg>
-                    </a> -->
+                                            Ver todos
+                                            <svg width="1.4em" height="1.4em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+                                            </svg>
+                                        </a> -->
                 </div><!-- /doc_tag_item -->
               </div><!-- /col -->
 
               <div class="col-lg-6 col-sm-6">
                 <div class="doc_tag_item" data-aos="zoom-in" data-aos-delay="300">
                   <div class="doc_tag_title">
-                    <h4>Matérias</h4>
+                    <h4>Articles</h4>
                     <div class="line"></div>
                   </div><!-- /doc_tag_title -->
                   <ul class="list-unstyled tag_list news">
-
                     <li>
                       <article class="card mb-4">
                         <header class="card-header">
@@ -658,7 +605,7 @@
                               <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
                               Estadão
                             </a> /
-                            <time class="" datetime="2020-12-14T12:00:00.000Z" itemprop="datePublished">14 de dezembro de 2020</time>
+                            <time class datetime="2020-12-14T12:00:00.000Z" itemprop="datePublished">14 de dezembro de 2020</time>
                           </div>
                           <a target="_blank" href="/assets/pdf/materia_estadao_recusros_venture_debt.pdf">
                             <h4 class="card-title">
@@ -678,7 +625,7 @@
                               <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
                               NeoFeed
                             </a> /
-                            <time class="" datetime="2020-10-28T12:00:00.000Z" itemprop="datePublished">28 de outubro de 2020</time>
+                            <time class datetime="2020-10-28T12:00:00.000Z" itemprop="datePublished">28 de outubro de 2020</time>
                           </div>
                           <a target="_blank" href="https://neofeed.com.br/blog/home/ele-descobriu-a-loggi-agora-esta-atras-de-novas-startups-com-a-fuse-capital/">
                             <h4 class="card-title">
@@ -698,7 +645,7 @@
                               <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
                               Startupi
                             </a> /
-                            <time class="" datetime="2020-10-28T12:00:00.000Z" itemprop="datePublished">28 de outubro de 2020</time>
+                            <time class datetime="2020-10-28T12:00:00.000Z" itemprop="datePublished">28 de outubro de 2020</time>
                           </div>
                           <a target="_blank" href="https://startupi.com.br/2020/10/plataforma-de-comunicacao-para-empresas-recebe-aporte-de-r3-milhoes/">
                             <h4 class="card-title">
@@ -718,7 +665,7 @@
                               <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
                               Valor econômico
                             </a> /
-                            <time class="" datetime="2020-10-13T12:00:00.000Z" itemprop="datePublished">13 de outubro de 2020</time>
+                            <time class datetime="2020-10-13T12:00:00.000Z" itemprop="datePublished">13 de outubro de 2020</time>
                           </div>
                           <a target="_blank" href="/assets/pdf/materia_financas_valor_oferecer-credito-a-startup-na-AL.pdf">
                             <h4 class="card-title">
@@ -736,7 +683,7 @@
                             <a target="_blank" href="https://oglobo.globo.com" rel="noopener noreferrer nofollow">
                               <!-- <img class="ico" src="/assets/img/logo_oglobo.png" alt=""> -->O Globo
                             </a> /
-                            <time class="" datetime="2020-09-14T12:00:00.000Z" itemprop="datePublished">14 de setembro de 2020</time>
+                            <time class datetime="2020-09-14T12:00:00.000Z" itemprop="datePublished">14 de setembro de 2020</time>
                           </div>
                           <a target="_blank" href="https://blogs.oglobo.globo.com/capital/post/conheca-gestora-de-venture-capital-que-quer-transformar-o-ime-em-um-celeiro-de-unicornios.html">
                             <h4 class="card-title">
@@ -755,7 +702,7 @@
                               <!-- <img class="ico" src="/assets/img/logo_bloomberg.png" alt=""> -->
                               Bloomberg
                             </a> /
-                            <time class="" datetime="2020-08-21T12:00:00.000Z" itemprop="datePublished">21 de agosto de 2020</time>
+                            <time class datetime="2020-08-21T12:00:00.000Z" itemprop="datePublished">21 de agosto de 2020</time>
                           </div>
                           <a target="_blank" href="https://br.financas.yahoo.com/noticias/fuse-re%C3%BAne-veteranos-venture-capital-120000241.html">
                             <h4 class="card-title">
@@ -764,10 +711,10 @@
                           </a>
                         </header>
                         <!-- <div class="card-body">
-                                    <p class="card-text">
-                                        Uma empresa fundada por veteranos do venture capital e empreendedores no Rio de Janeiro está levantando seu primeiro fundo offshore para pessoas físicas que buscam investimentos de longo prazo e de alto risco.
-                                    </p>
-                                </div> -->
+                                                        <p class="card-text">
+                                                            Uma empresa fundada por veteranos do venture capital e empreendedores no Rio de Janeiro está levantando seu primeiro fundo offshore para pessoas físicas que buscam investimentos de longo prazo e de alto risco.
+                                                        </p>
+                                                    </div> -->
                       </article>
 
                     </li>
@@ -784,17 +731,14 @@
         </div>
 
         <div class="col-md-4 col-12">
+
           <!-- ======= Stamps Section ======= -->
           <div class="section selos">
             <div class="container">
 
               <div class="section-title" data-aos="fade-up">
-                <h2>
-                  Selos
-                </h2>
-                <p>
-                  abvcap
-                </p>
+                <h2>Seals</h2>
+                <p>abvcap</p>
               </div><!-- /section-title -->
 
             </div>
@@ -805,27 +749,27 @@
                 <div class="row no-gutters" data-aos="fade-left">
 
                   <!-- <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="/assets/img/selos/selo_ABVCAP_AdministracaoFiduciaria.png" class="img-fluid" alt="">
-                    <img src="/assets/img/selos/ABVCAP_AdministracaoFiduciaria.jpg" class="img-fluid" alt="">
-                </div> -->
+                                        <img src="/assets/img/selos/selo_ABVCAP_AdministracaoFiduciaria.png" class="img-fluid" alt="">
+                                        <img src="/assets/img/selos/ABVCAP_AdministracaoFiduciaria.jpg" class="img-fluid" alt="">
+                                    </div> -->
 
                   <div class="col-lg-12 col-md-12" data-aos="zoom-in" data-aos-delay="200">
                     <div class="doc_tag_title">
-                      <h4>Autoregulação</h4>
+                      <h4>Self-regulation</h4>
                       <div class="line"></div>
                     </div><!-- /doc_tag_title -->
-                    <img src="/assets/img/selos/selo_ABVCAP_Autorregulacao.png" class="img-fluid" alt="">
+                    <img src="/assets/img/selos/selo_ABVCAP_Autorregulacao.png" class="img-fluid" alt>
                   </div>
 
                   <!-- <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                    <img src="/assets/img/selos/selo_ABVCAP_DistribuicaodeFIP.png" class="img-fluid" alt="">
-                    <img src="/assets/img/selos/ABVCAP_DistribuicaodeFIP.jpg" class="img-fluid" alt="">
-                </div>
+                                        <img src="/assets/img/selos/selo_ABVCAP_DistribuicaodeFIP.png" class="img-fluid" alt="">
+                                        <img src="/assets/img/selos/ABVCAP_DistribuicaodeFIP.jpg" class="img-fluid" alt="">
+                                    </div>
 
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="/assets/img/selos/selo_ABVCAP_GestaodeRecursos.png" class="img-fluid" alt="">
-                    <img src="/assets/img/selos/ABVCAP_GestaodeRecursos.jpg" class="img-fluid" alt="">
-                </div> -->
+                                    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                                        <img src="/assets/img/selos/selo_ABVCAP_GestaodeRecursos.png" class="img-fluid" alt="">
+                                        <img src="/assets/img/selos/ABVCAP_GestaodeRecursos.jpg" class="img-fluid" alt="">
+                                    </div> -->
 
                 </div><!-- /row -->
 
@@ -843,12 +787,8 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>
-            Contato
-          </h2>
-          <p>
-            Fale conosco
-          </p>
+          <h2>Contact</h2>
+          <p>Contact us</p>
         </div><!-- /section-title -->
 
         <div class="row">
@@ -857,9 +797,7 @@
             <div class="info">
               <div class="address">
                 <i class="icofont-google-map"></i>
-                <h4>
-                  Endereço:
-                </h4>
+                <h4>Address</h4>
                 <p>
                   <b>Rio:</b> Av. Ataulfo de Paiva 1251, Leblon <br>
                   <b>Sp:</b> Rua Pedroso Alvarenga 691, Itaim
@@ -868,76 +806,75 @@
 
               <div class="email">
                 <i class="icofont-envelope"></i>
-                <h4>
-                  E-mail:
-                </h4>
+                <h4>E-mail</h4>
                 <p>
                   zap@fuse.capital
                 </p>
               </div><!-- /email -->
 
               <!--
-                    <div class="phone">
-                        <i class="icofont-phone"></i>
-                        <h4>
-                            Call:
-                        </h4>
-                        <p>
-                            +1 5589 55488 55s
-                        </p>
-                    </div> /phone -->
+                            <div class="phone">
+                                <i class="icofont-phone"></i>
+                                <h4>
+                                    Call:
+                                </h4>
+                                <p>
+                                    +1 5589 55488 55s
+                                </p>
+                            </div> /phone -->
             </div><!-- /info -->
           </div><!-- /col -->
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+            <form action="http://www.fuse.capital/forms/contact.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
               <div class="form-row">
                 <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Insira pelo menos 4 caracteres" />
+                  <div class="form-label-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Insira pelo menos 4 caracteres">
+                    <label>Name</label>
                     <div class="validate"></div>
-                  </div><!-- /form-group -->
+                  </div><!-- /form-label-group -->
 
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Por favor digite um email válido" />
+                  <div class="form-label-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Por favor digite um email válido">
+                    <label>E-mail</label>
                     <div class="validate"></div>
-                  </div><!-- /form-group -->
+                  </div><!-- /form-label-group -->
 
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="/assunto" data-rule="minlen:4" data-msg="Insira pelo menos 8 caracteres do assunto" />
+                  <div class="form-label-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Insira pelo menos 8 caracteres do assunto">
+                    <label>Subject</label>
                     <div class="validate"></div>
-                  </div><!-- /form-group -->
+                  </div><!-- /form-label-group -->
 
-                  <!-- <div class="form-group">
-                                <div class="input-group">
-                                    <label class="input-group-btn file">
-                                        <span class="btn">
-                                            Procurar&hellip; <input type="file" name="attachment" style="display: none;" multiple>
-                                        </span>
-                                    </label>
-                                    <input type="text" class="form-control" readonly>
-                                </div>
-                            </div> -->
+                  <!-- <div class="form-label-group">
+                                        <div class="input-group">
+                                            <label class="input-group-btn file">
+                                                <span class="btn">
+                                                    Procurar&hellip; <input type="file" name="attachment" style="display: none;" multiple>
+                                                </span>
+                                            </label>
+                                            <input type="text" class="form-control" readonly>
+                                        </div>
+                                    </div> -->
                 </div><!-- /col -->
-                <div class="col-md-6 form-group">
-                  <div class="form-group">
+                <div class="col-md-6">
+                  <div class="form-label-group">
                     <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" data-rule="required" data-msg="Por favor escreva algo para nós"></textarea>
+                    <label>Message</label>
                     <div class="validate"></div>
-                  </div><!-- /form-group -->
+                  </div><!-- /form-label-group -->
                 </div><!-- /col -->
               </div><!-- /form-row -->
 
-              <div class="form-group">
-
-              </div><!-- /form-group -->
               <div class="mb-3">
-                <div class="loading">Carregando</div>
+                <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
+                <div class="sent-message">Your message was sent. Thanks!</div>
               </div><!-- /mb-3 -->
               <div class="text-right">
-                <button type="submit">Enviar</button>
+                <button type="submit">Submit</button>
               </div><!-- /text-right -->
             </form>
 
@@ -953,9 +890,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">
-              Políticas e <br>Documentos públicos
-            </h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Policies and Manuals</h5>
 
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -965,7 +900,7 @@
             <ul class="list-unstyled tag_list">
               <li>
                 <a target="_blank" href="https://drive.google.com/file/d/19fv-lW-EWljHnNLq54x3F8Gy9Rp2Noqx/view?usp=sharing" download="Formulario_de_Referencia">
-                  <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                     <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
@@ -975,7 +910,7 @@
               </li>
               <li>
                 <a target="_blank" href="https://drive.google.com/file/d/150DmW9NaVFaV5Q-rpXzw5Dp7jypDK7fV/view?usp=sharing" download="Politica_KYC_e_PLD">
-                  <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                     <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
@@ -985,7 +920,7 @@
               </li>
               <li>
                 <a target="_blank" href="https://drive.google.com/file/d/1cynR1vbuG2LpaazeGFyMiLUvF5CeYotk/view?usp=sharing" download="Codigo_de_Etica">
-                  <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                     <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
@@ -995,7 +930,7 @@
               </li>
               <li>
                 <a target="_blank" href="https://drive.google.com/file/d/1gz6ALxF0hYs2yMKPlgDGM6K36i8bdsNI/view?usp=sharing" download="Manual_de_Compliance">
-                  <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                     <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
@@ -1005,7 +940,7 @@
               </li>
               <li>
                 <a target="_blank" href="https://drive.google.com/file/d/1NnOWDyRcQi3CLC9pj9hBcnBC6hf_kdfx/view?usp=sharing" download="Politica_de_Divisao_e_Rateio_de_Ordens">
-                  <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                     <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
@@ -1015,7 +950,7 @@
               </li>
               <li>
                 <a target="_blank" href="https://drive.google.com/file/d/1CrduH14QsIThhHKrwg-Wxzlw18bshkSv/view?usp=sharing" download="Politica_de_Gestao_de_Riscos">
-                  <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                     <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
@@ -1025,7 +960,7 @@
               </li>
               <li>
                 <a target="_blank" href="https://drive.google.com/file/d/1W2hgI1LYHwtC-12yNa49D5BqZQ0wa3Vw/view?usp=sharing" download="Politica_de_Investimentos_Pessoais">
-                  <svg class="ico-file" viewBox="0 0 16 16" class="bi bi-file-earmark-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="ico-file" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z" />
                     <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z" />
                     <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
@@ -1037,16 +972,14 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><!-- End modal -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Fuse Capital</span></strong>. All Rights Reserved
-      </div>
+      <div class="copyright">&copy; Copyright - <strong><span>Fuse Capital</span></strong>. All rights reserved</div>
     </div>
   </footer><!-- End Footer -->
 
@@ -1066,6 +999,17 @@
 
   <!-- Template Main JS File -->
   <script src="/assets/js/main.js"></script>
+
+  <script>
+    var url = window.location.href;
+    if (url.indexOf("/en/") > -1) {
+      $("#lang-pt").hide();
+      $("#lang-en").show();
+    } else {
+      $("#lang-pt").show();
+      $("#lang-en").hide();
+    }
+  </script>
 
 </body>
 

@@ -38,18 +38,6 @@ function clean() {
   return del(distDir + "**/*");
 }
 
-// const i18n = () =>
-//   gulp
-//   .src(["./src/*.html", "!./src/template.html"])
-//     .pipe(
-//       staticI18nHtml({
-//         locale: "en",
-//         locales: ["en", "fr", "de"],
-//       })
-//     )
-//     .pipe(nunjucks.compile())
-//     .pipe(gulp.dest("./dist"));
-
 // Task: Copy Files
 function copyFiles() {
   const assetsFolder = gulp
@@ -86,7 +74,7 @@ function compileHTML() {
     .pipe(
       staticI18nHtml({
         locale: "pt",
-        locales: ["pt", "en", "fr"],
+        locales: ["pt", "en"],
       })
     )
     .pipe(nunjucks.compile())
