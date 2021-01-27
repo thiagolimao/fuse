@@ -1,0 +1,56 @@
+/*--------------------------------------------------------------
+# Uteis
+--------------------------------------------------------------*/
+.between-itens
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.doc_tag_title {
+    .nav-tabs
+    {
+        border-bottom: none;
+        .nav-item
+        {
+            .nav-link
+            {
+                padding-bottom: 0;
+                padding-top: 0;
+                padding-right: 0;
+                color: $default;
+                opacity: .6;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 0;
+                    height: 2px;
+                    bottom: 0;
+                    left: 35px;
+                    background-color: $primary;
+                    visibility: hidden;
+                    transition: all 0.3s ease-in-out 0s;
+                }
+
+                &.active
+                {
+                    &:before {
+                        visibility: visible;
+                        width: 15px;
+                    }
+                }
+
+                &.active,
+                &:hover
+                {
+                    opacity: 1;
+                    // color: $primary;
+                    border-color: transparent;
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+

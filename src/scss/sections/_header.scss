@@ -157,6 +157,13 @@
                 }
             }
 
+            
+
+            &.nav-lang
+            {
+                display: none;
+            }
+
             a, button
             {
                 display: block;
@@ -184,6 +191,16 @@
                     &:before {
                         background-color: transparent;
                     }
+                }
+            }
+
+            button
+            {
+                &.mobile-nav-toggle
+                {
+                    position: static;
+                    font-size: 15px; 
+                    line-height: 1.4;
                 }
             }
 
@@ -279,6 +296,28 @@ $mobile_nav_spacing: 15px;
     font-weight: 500;
     outline: none;
   }
+
+    button
+    {
+        &.mobile-nav-toggle
+        {
+            position: static;
+            font-size: 1rem; 
+            line-height: 1.4;
+            width: 100%;
+            text-align: left;
+        }
+    }
+
+    .nav-lang
+    {
+        display: initial;
+    }
+
+    .drop-lang
+    {
+        display: none !important;
+    }
 
   a:hover,
   .active > a,

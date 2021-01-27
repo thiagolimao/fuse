@@ -117,7 +117,7 @@
             <a href="#contact" title="Fale conosco">Contato</a>
           </li>
           <li>
-            <button type="button" class data-toggle="modal" data-target="#exampleModalCenter">
+            <button type="button" class="mobile-nav-toggle" data-toggle="modal" data-target="#exampleModalCenter">
               <span>Políticas e Manuais</span>
             </button>
           </li>
@@ -132,6 +132,14 @@
             <div class="dropdown-menu" aria-labelledby="dropdown09">
               <a class="dropdown-item" href="../"><span class="flag-icon flag-icon-br"> </span></a>
             </div>
+          </li>
+
+          <li class="nav-lang">
+            <a class href="http://fuse.capital/"><span class="flag-icon flag-icon-br"> </span></a>
+          </li>
+
+          <li class="nav-lang">
+            <a class href="http://fuse.capital/en"><span class="flag-icon flag-icon-us"> </span></a>
           </li>
         </ul>
 
@@ -593,132 +601,192 @@
               <div class="col-lg-6 col-sm-6">
                 <div class="doc_tag_item" data-aos="zoom-in" data-aos-delay="300">
                   <div class="doc_tag_title">
-                    <h4>Matérias</h4>
+                    <div class="between-itens">
+                      <h4>Matérias</h4>
+
+                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                            2021
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                            2020
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="line"></div>
                   </div><!-- /doc_tag_title -->
-                  <ul class="list-unstyled tag_list news">
-                    <li>
-                      <article class="card mb-4">
-                        <header class="card-header">
-                          <div class="card-meta">
-                            <a target="_blank" href="https://economia.estadao.com.br" rel="noopener noreferrer nofollow">
-                              <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
-                              Estadão
-                            </a> /
-                            <time class datetime="2020-12-14T12:00:00.000Z" itemprop="datePublished">14 de dezembro de 2020</time>
-                          </div>
-                          <a target="_blank" href="/assets/pdf/materia_estadao_recusros_venture_debt.pdf">
-                            <h4 class="card-title">
-                              Reservamos recursos para o 'Venture debt'
-                            </h4>
-                          </a>
-                        </header>
-                      </article>
 
-                    </li>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                      <ul class="list-unstyled tag_list news">
+                        <li>
+                          <article class="card mb-4">
+                            <header class="card-header">
+                              <div class="card-meta">
+                                <a target="_blank" href="https://www1.folha.uol.com.br" rel="noopener noreferrer nofollow">
+                                  <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
+                                  Folha de São Paulo
+                                </a> /
+                                <time class datetime="2021-01-19T23:15:00.000Z" itemprop="datePublished">19 de janeiro de 2021</time>
+                              </div>
+                              <a target="_blank" href="https://www1.folha.uol.com.br/mercado/2021/01/investimento-em-startups-bate-recordes-e-venture-capital-se-consolida-como-opcao.shtml">
+                                <h4 class="card-title">
+                                  Investimento em startups bate recordes e venture capital se consolida como opção
+                                </h4>
+                              </a>
+                            </header>
+                          </article>
+                        </li>
+                        <li>
+                          <article class="card mb-4">
+                            <header class="card-header">
+                              <div class="card-meta">
+                                <a target="_blank" href="https://valor.globo.com" rel="noopener noreferrer nofollow">
+                                  <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
+                                  Valor Econômico
+                                </a> /
+                                <time class datetime="2021-01-19T12:00:00.000Z" itemprop="datePublished">19 de janeiro de 2021</time>
+                              </div>
+                              <a target="_blank" href="/assets/pdf/materia_valor_economico-restartrio.pdf" download="Para fomentar startups no Rio, empresários criam ReStart">
+                                <h4 class="card-title">
+                                  Para fomentar startups no Rio, empresários criam ReStart
+                                </h4>
+                              </a>
+                            </header>
+                          </article>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      <ul class="list-unstyled tag_list news">
+                        <li>
+                          <article class="card mb-4">
+                            <header class="card-header">
+                              <div class="card-meta">
+                                <a target="_blank" href="https://economia.estadao.com.br" rel="noopener noreferrer nofollow">
+                                  <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
+                                  Estadão
+                                </a> /
+                                <time class datetime="2020-12-14T12:00:00.000Z" itemprop="datePublished">14 de dezembro de 2020</time>
+                              </div>
+                              <a target="_blank" href="/assets/pdf/materia_estadao_recusros_venture_debt.pdf" download="Reservamos recursos para o Venture debt">
+                                <h4 class="card-title">
+                                  Reservamos recursos para o 'Venture debt'
+                                </h4>
+                              </a>
+                            </header>
+                          </article>
 
-                    <li>
-                      <article class="card mb-4">
-                        <header class="card-header">
-                          <div class="card-meta">
-                            <a target="_blank" href="https://neofeed.com.br" rel="noopener noreferrer nofollow">
-                              <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
-                              NeoFeed
-                            </a> /
-                            <time class datetime="2020-10-28T12:00:00.000Z" itemprop="datePublished">28 de outubro de 2020</time>
-                          </div>
-                          <a target="_blank" href="https://neofeed.com.br/blog/home/ele-descobriu-a-loggi-agora-esta-atras-de-novas-startups-com-a-fuse-capital/">
-                            <h4 class="card-title">
-                              Ele descobriu a Loggi. Agora, está atrás de novas startups com a Fuse Capital
-                            </h4>
-                          </a>
-                        </header>
-                      </article>
+                        </li>
 
-                    </li>
+                        <li>
+                          <article class="card mb-4">
+                            <header class="card-header">
+                              <div class="card-meta">
+                                <a target="_blank" href="https://neofeed.com.br" rel="noopener noreferrer nofollow">
+                                  <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
+                                  NeoFeed
+                                </a> /
+                                <time class datetime="2020-10-28T12:00:00.000Z" itemprop="datePublished">28 de outubro de 2020</time>
+                              </div>
+                              <a target="_blank" href="https://neofeed.com.br/blog/home/ele-descobriu-a-loggi-agora-esta-atras-de-novas-startups-com-a-fuse-capital/">
+                                <h4 class="card-title">
+                                  Ele descobriu a Loggi. Agora, está atrás de novas startups com a Fuse Capital
+                                </h4>
+                              </a>
+                            </header>
+                          </article>
 
-                    <li>
-                      <article class="card mb-4">
-                        <header class="card-header">
-                          <div class="card-meta">
-                            <a target="_blank" href="https://startupi.com.br" rel="noopener noreferrer nofollow">
-                              <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
-                              Startupi
-                            </a> /
-                            <time class datetime="2020-10-28T12:00:00.000Z" itemprop="datePublished">28 de outubro de 2020</time>
-                          </div>
-                          <a target="_blank" href="https://startupi.com.br/2020/10/plataforma-de-comunicacao-para-empresas-recebe-aporte-de-r3-milhoes/">
-                            <h4 class="card-title">
-                              Plataforma de comunicação para empresas recebe aporte de R$3 milhões
-                            </h4>
-                          </a>
-                        </header>
-                      </article>
+                        </li>
 
-                    </li>
+                        <li>
+                          <article class="card mb-4">
+                            <header class="card-header">
+                              <div class="card-meta">
+                                <a target="_blank" href="https://startupi.com.br" rel="noopener noreferrer nofollow">
+                                  <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
+                                  Startupi
+                                </a> /
+                                <time class datetime="2020-10-28T12:00:00.000Z" itemprop="datePublished">28 de outubro de 2020</time>
+                              </div>
+                              <a target="_blank" href="https://startupi.com.br/2020/10/plataforma-de-comunicacao-para-empresas-recebe-aporte-de-r3-milhoes/">
+                                <h4 class="card-title">
+                                  Plataforma de comunicação para empresas recebe aporte de R$3 milhões
+                                </h4>
+                              </a>
+                            </header>
+                          </article>
 
-                    <li>
-                      <article class="card mb-4">
-                        <header class="card-header">
-                          <div class="card-meta">
-                            <a target="_blank" href="https://valor.globo.com" rel="noopener noreferrer nofollow">
-                              <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
-                              Valor econômico
-                            </a> /
-                            <time class datetime="2020-10-13T12:00:00.000Z" itemprop="datePublished">13 de outubro de 2020</time>
-                          </div>
-                          <a target="_blank" href="/assets/pdf/materia_financas_valor_oferecer-credito-a-startup-na-AL.pdf">
-                            <h4 class="card-title">
-                              Gestora Fuse levanta fundo para oferecer crédito a startup na AL
-                            </h4>
-                          </a>
-                        </header>
-                      </article>
+                        </li>
 
-                    </li>
-                    <li>
-                      <article class="card mb-4">
-                        <header class="card-header">
-                          <div class="card-meta">
-                            <a target="_blank" href="https://oglobo.globo.com" rel="noopener noreferrer nofollow">
-                              <!-- <img class="ico" src="/assets/img/logo_oglobo.png" alt=""> -->O Globo
-                            </a> /
-                            <time class datetime="2020-09-14T12:00:00.000Z" itemprop="datePublished">14 de setembro de 2020</time>
-                          </div>
-                          <a target="_blank" href="https://blogs.oglobo.globo.com/capital/post/conheca-gestora-de-venture-capital-que-quer-transformar-o-ime-em-um-celeiro-de-unicornios.html">
-                            <h4 class="card-title">
-                              Conheça a gestora de venture capital que quer transformar o IME em um celeiro de unicórnios
-                            </h4>
-                          </a>
-                        </header>
-                      </article>
+                        <li>
+                          <article class="card mb-4">
+                            <header class="card-header">
+                              <div class="card-meta">
+                                <a target="_blank" href="https://valor.globo.com" rel="noopener noreferrer nofollow">
+                                  <!-- <img class="ico" src="/assets/img/logo_valoreconomico.png" alt=""> -->
+                                  Valor econômico
+                                </a> /
+                                <time class datetime="2020-10-13T12:00:00.000Z" itemprop="datePublished">13 de outubro de 2020</time>
+                              </div>
+                              <a target="_blank" href="/assets/pdf/materia_financas_valor_oferecer-credito-a-startup-na-AL.pdf" download="Gestora Fuse levanta fundo para oferecer crédito a startup na AL">
+                                <h4 class="card-title">
+                                  Gestora Fuse levanta fundo para oferecer crédito a startup na AL
+                                </h4>
+                              </a>
+                            </header>
+                          </article>
 
-                    </li>
-                    <li>
-                      <article class="card mb-4">
-                        <header class="card-header">
-                          <div class="card-meta">
-                            <a target="_blank" href="http://www.bloomberg.com" rel="noopener noreferrer nofollow">
-                              <!-- <img class="ico" src="/assets/img/logo_bloomberg.png" alt=""> -->
-                              Bloomberg
-                            </a> /
-                            <time class datetime="2020-08-21T12:00:00.000Z" itemprop="datePublished">21 de agosto de 2020</time>
-                          </div>
-                          <a target="_blank" href="https://br.financas.yahoo.com/noticias/fuse-re%C3%BAne-veteranos-venture-capital-120000241.html">
-                            <h4 class="card-title">
-                              Fuse reúne veteranos do venture capital e lança fundo offshore
-                            </h4>
-                          </a>
-                        </header>
-                        <!-- <div class="card-body">
-                                                        <p class="card-text">
-                                                            Uma empresa fundada por veteranos do venture capital e empreendedores no Rio de Janeiro está levantando seu primeiro fundo offshore para pessoas físicas que buscam investimentos de longo prazo e de alto risco.
-                                                        </p>
-                                                    </div> -->
-                      </article>
+                        </li>
+                        <li>
+                          <article class="card mb-4">
+                            <header class="card-header">
+                              <div class="card-meta">
+                                <a target="_blank" href="https://oglobo.globo.com" rel="noopener noreferrer nofollow">
+                                  <!-- <img class="ico" src="/assets/img/logo_oglobo.png" alt=""> -->O Globo
+                                </a> /
+                                <time class datetime="2020-09-14T12:00:00.000Z" itemprop="datePublished">14 de setembro de 2020</time>
+                              </div>
+                              <a target="_blank" href="https://blogs.oglobo.globo.com/capital/post/conheca-gestora-de-venture-capital-que-quer-transformar-o-ime-em-um-celeiro-de-unicornios.html">
+                                <h4 class="card-title">
+                                  Conheça a gestora de venture capital que quer transformar o IME em um celeiro de unicórnios
+                                </h4>
+                              </a>
+                            </header>
+                          </article>
 
-                    </li>
-                  </ul>
+                        </li>
+                        <li>
+                          <article class="card mb-4">
+                            <header class="card-header">
+                              <div class="card-meta">
+                                <a target="_blank" href="http://www.bloomberg.com" rel="noopener noreferrer nofollow">
+                                  <!-- <img class="ico" src="/assets/img/logo_bloomberg.png" alt=""> -->
+                                  Bloomberg
+                                </a> /
+                                <time class datetime="2020-08-21T12:00:00.000Z" itemprop="datePublished">21 de agosto de 2020</time>
+                              </div>
+                              <a target="_blank" href="https://br.financas.yahoo.com/noticias/fuse-re%C3%BAne-veteranos-venture-capital-120000241.html">
+                                <h4 class="card-title">
+                                  Fuse reúne veteranos do venture capital e lança fundo offshore
+                                </h4>
+                              </a>
+                            </header>
+                            <!-- <div class="card-body">
+                                                                <p class="card-text">
+                                                                    Uma empresa fundada por veteranos do venture capital e empreendedores no Rio de Janeiro está levantando seu primeiro fundo offshore para pessoas físicas que buscam investimentos de longo prazo e de alto risco.
+                                                                </p>
+                                                            </div> -->
+                          </article>
+
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
 
                 </div><!-- /doc_tag_item -->
               </div><!-- /col -->
