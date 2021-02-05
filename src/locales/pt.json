@@ -62,12 +62,14 @@
         "PORTFOLIO_HEADER_SUBTITLE":    "Empresas investidas",
         "PORTFOLIO_HEADER_LINK":        "Envie sua Start-up",
         
-        "PORTFOLIO_BOX1_LINK":          "fligoo.com",
-        "PORTFOLIO_BOX1_DESCRIPTION":   "Aplicações de IA direcionada a grandes clientes corporativos.",
-        "PORTFOLIO_BOX2_LINK":          "pinkapp.com",
-        "PORTFOLIO_BOX2_DESCRIPTION":   "Plataforma de comunicação para pequenas e médias empresas",
-        "PORTFOLIO_BOX3_LINK":          "aio.com.br",
-        "PORTFOLIO_BOX3_DESCRIPTION":   "IA aplicada para reduzir grandes provas em poucas perguntas, posicionando o estudante na fronteira do aprendizado."
+        "PORTFOLIO_BOX1_LINK":          "aio.com.br",
+        "PORTFOLIO_BOX1_DESCRIPTION":   "IA aplicada para reduzir grandes provas em poucas perguntas, posicionando o estudante na fronteira do aprendizado.",
+        "PORTFOLIO_BOX2_LINK":          "fligoo.com",
+        "PORTFOLIO_BOX2_DESCRIPTION":   "Aplicações de IA direcionada a grandes clientes corporativos.",
+        "PORTFOLIO_BOX3_LINK":          "pinkapp.com",
+        "PORTFOLIO_BOX3_DESCRIPTION":   "Plataforma de comunicação para pequenas e médias empresas.",
+        "PORTFOLIO_BOX4_LINK":          "w.dental",
+        "PORTFOLIO_BOX4_DESCRIPTION":   "Healthtech que tem por objetivo democratizar o acesso à saúde bucal no Brasil."
     },
     "SEC_TEAM": {
         "TEAM_HEADER_TITLE":            "Time",

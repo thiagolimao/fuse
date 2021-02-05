@@ -62,12 +62,14 @@
         "PORTFOLIO_HEADER_SUBTITLE":    "Invested Companies",
         "PORTFOLIO_HEADER_LINK":        "Submit your Start-up",
         
-        "PORTFOLIO_BOX1_LINK":          "fligoo.com",
-        "PORTFOLIO_BOX1_DESCRIPTION":   "IA applications targeted at large corporate customers.",
-        "PORTFOLIO_BOX2_LINK":          "pinkapp.com",
-        "PORTFOLIO_BOX2_DESCRIPTION":   "Communication platform for small and medium-sized companies.",
-        "PORTFOLIO_BOX3_LINK":          "aio.com.br",
-        "PORTFOLIO_BOX3_DESCRIPTION":   "IA applied to reduce long mock exams to quick quizes, placing the student on the learning frontier."
+        "PORTFOLIO_BOX1_LINK":          "aio.com.br",
+        "PORTFOLIO_BOX1_DESCRIPTION":   "IA applied to reduce long mock exams to quick quizes, placing the student on the learning frontier.",
+        "PORTFOLIO_BOX2_LINK":          "fligoo.com",
+        "PORTFOLIO_BOX2_DESCRIPTION":   "IA applications targeted at large corporate customers.",
+        "PORTFOLIO_BOX3_LINK":          "pinkapp.com",
+        "PORTFOLIO_BOX3_DESCRIPTION":   "Communication platform for small and medium-sized companies.",
+        "PORTFOLIO_BOX4_LINK":          "w.dental",
+        "PORTFOLIO_BOX4_DESCRIPTION":   "Healthtech with the mission of democratizing dental health in Brazil."
     },
     "SEC_TEAM": {
         "TEAM_HEADER_TITLE":            "Team",
