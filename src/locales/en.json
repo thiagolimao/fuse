@@ -61,15 +61,32 @@
         "PORTFOLIO_HEADER_TITLE":       "Portfolio",
         "PORTFOLIO_HEADER_SUBTITLE":    "Invested Companies",
         "PORTFOLIO_HEADER_LINK":        "Submit your Start-up",
+        "PORTFOLIO_BOX_URL_FILE":       "/assets/img/portfolio/logo-",
         
+        "PORTFOLIO_BOX1_NAME":          "aio",
+        "PORTFOLIO_BOX1_URL":           "http://www.aio.com.br",
         "PORTFOLIO_BOX1_LINK":          "aio.com.br",
         "PORTFOLIO_BOX1_DESCRIPTION":   "IA applied to reduce long mock exams to quick quizes, placing the student on the learning frontier.",
+        
+        "PORTFOLIO_BOX2_NAME":          "fligoo",
+        "PORTFOLIO_BOX2_URL":           "http://www.fligoo.com",
         "PORTFOLIO_BOX2_LINK":          "fligoo.com",
         "PORTFOLIO_BOX2_DESCRIPTION":   "IA applications targeted at large corporate customers.",
-        "PORTFOLIO_BOX3_LINK":          "pinkapp.com",
-        "PORTFOLIO_BOX3_DESCRIPTION":   "Communication platform for small and medium-sized companies.",
-        "PORTFOLIO_BOX4_LINK":          "w.dental",
-        "PORTFOLIO_BOX4_DESCRIPTION":   "Healthtech with the mission of democratizing dental health in Brazil."
+        
+        "PORTFOLIO_BOX3_NAME":          "hashdex",
+        "PORTFOLIO_BOX3_URL":           "http://www.hashdex.com.br",
+        "PORTFOLIO_BOX3_LINK":          "hashdex.com.br",
+        "PORTFOLIO_BOX3_DESCRIPTION":   "Latin America's largest crypto investment company aimed at offering global financial products for the ever-growing demand for crypto Assets.",
+        
+        "PORTFOLIO_BOX4_NAME":          "pink",
+        "PORTFOLIO_BOX4_URL":           "http://www.pinkapp.com/",
+        "PORTFOLIO_BOX4_LINK":          "pinkapp.com",
+        "PORTFOLIO_BOX4_DESCRIPTION":   "Communication platform for small and medium-sized companies.",
+        
+        "PORTFOLIO_BOX5_NAME":          "wdental",
+        "PORTFOLIO_BOX5_URL":           "http://w.dental/",
+        "PORTFOLIO_BOX5_LINK":          "w.dental",
+        "PORTFOLIO_BOX5_DESCRIPTION":   "Healthtech with the mission of democratizing dental health in Brazil."
     },
     "SEC_TEAM": {
         "TEAM_HEADER_TITLE":            "Team",
@@ -86,7 +103,30 @@
         "FILES_HEADER_SUBTITLE":        "Downloads",
 
         "FILES_LETTERS_TITLE":          "Letters",
-        "FILES_ARTICLES_TITLE":         "Articles"
+        "FILES_ARTICLES_TITLE":         "Articles",
+
+        "FILES_URL":                    "/assets/pdf/",
+        "FILES_LANG":                   "ENG",
+
+        "FILES_NAME01":                 "Fuse_Carta_2020_Q1_",
+        "FILES_TITLE01":                "In the land of the black swan, where unicorns are born",
+        "FILES_DATA01":                 "2020/Q1",
+
+        "FILES_NAME02":                 "Fuse_Carta_2020_Q2_",
+        "FILES_TITLE02":                "Alea Jacta Est ",
+        "FILES_DATA02":                 "2020/Q2",
+
+        "FILES_NAME03":                 "Fuse_Carta_2020_Q3_",
+        "FILES_TITLE03":                "The invisible gorilla",
+        "FILES_DATA03":                 "2020/Q3",
+
+        "FILES_NAME04":                 "Fuse_Carta_2020_Q4_",
+        "FILES_TITLE04":                "The clove",
+        "FILES_DATA04":                 "2020/Q4",
+
+        "FILES_NAME05":                 "Fuse_Carta_2021_Q1_",
+        "FILES_TITLE05":                "The future is here and now",
+        "FILES_DATA05":                 "2021/Q1"
     },
     "SEC_SEALS": {
         "SEALS_HEADER_TITLE":           "Seals",
@@ -115,5 +155,8 @@
     },
     "FOOTER": {
         "COPYRIGHT":                    "&copy; Copyright - <strong><span>Fuse Capital</span></strong>. All rights reserved"
+    },
+    "MODAL": {
+        "CLOSE":                        "Access the site"
     }
 }

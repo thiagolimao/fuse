@@ -61,15 +61,33 @@
         "PORTFOLIO_HEADER_TITLE":       "Portfólio",
         "PORTFOLIO_HEADER_SUBTITLE":    "Empresas investidas",
         "PORTFOLIO_HEADER_LINK":        "Envie sua Start-up",
+        "PORTFOLIO_BOX_URL_FILE":       "/assets/img/portfolio/logo-",
         
+        "PORTFOLIO_BOX1_NAME":          "aio",
+        "PORTFOLIO_BOX1_URL":           "http://www.aio.com.br",
         "PORTFOLIO_BOX1_LINK":          "aio.com.br",
         "PORTFOLIO_BOX1_DESCRIPTION":   "IA aplicada para reduzir grandes provas em poucas perguntas, posicionando o estudante na fronteira do aprendizado.",
+        
+        "PORTFOLIO_BOX2_NAME":          "fligoo",
+        "PORTFOLIO_BOX2_URL":           "http://www.fligoo.com",
         "PORTFOLIO_BOX2_LINK":          "fligoo.com",
         "PORTFOLIO_BOX2_DESCRIPTION":   "Aplicações de IA direcionada a grandes clientes corporativos.",
-        "PORTFOLIO_BOX3_LINK":          "pinkapp.com",
-        "PORTFOLIO_BOX3_DESCRIPTION":   "Plataforma de comunicação para pequenas e médias empresas.",
-        "PORTFOLIO_BOX4_LINK":          "w.dental",
-        "PORTFOLIO_BOX4_DESCRIPTION":   "Healthtech que tem por objetivo democratizar o acesso à saúde bucal no Brasil."
+        
+        "PORTFOLIO_BOX3_NAME":          "hashdex",
+        "PORTFOLIO_BOX3_URL":           "http://www.hashdex.com.br",
+        "PORTFOLIO_BOX3_LINK":          "hashdex.com.br",
+        "PORTFOLIO_BOX3_DESCRIPTION":   "O maior gestor de investimentos cripto da América Latina com o objetivo de oferecer produtos financeiros globais para a demanda crescente por cripto ativos.",
+        
+        "PORTFOLIO_BOX4_NAME":          "pink",
+        "PORTFOLIO_BOX4_URL":           "http://www.pinkapp.com/",
+        "PORTFOLIO_BOX4_LINK":          "pinkapp.com",
+        "PORTFOLIO_BOX4_DESCRIPTION":   "Plataforma de comunicação para pequenas e médias empresas.",
+        
+        "PORTFOLIO_BOX5_NAME":          "wdental",
+        "PORTFOLIO_BOX5_URL":           "http://w.dental/",
+        "PORTFOLIO_BOX5_LINK":          "w.dental",
+        "PORTFOLIO_BOX5_DESCRIPTION":   "Healthtech que tem por objetivo democratizar o acesso à saúde bucal no Brasil."
+    
     },
     "SEC_TEAM": {
         "TEAM_HEADER_TITLE":            "Time",
@@ -86,7 +104,31 @@
         "FILES_HEADER_SUBTITLE":        "Downloads",
 
         "FILES_LETTERS_TITLE":          "Cartas",
-        "FILES_ARTICLES_TITLE":         "Matérias"
+        "FILES_ARTICLES_TITLE":         "Matérias",
+
+        "FILES_URL":                    "/assets/pdf/",
+        "FILES_LANG":                   "PORT",
+
+        "FILES_NAME01":                 "Fuse_Carta_2020_Q1_",
+        "FILES_TITLE01":                "Em terra de cisne negro, o que nasce é unicórnio",
+        "FILES_DATA01":                 "2020/Q1",
+
+        "FILES_NAME02":                 "Fuse_Carta_2020_Q2_",
+        "FILES_TITLE02":                "Alea Jacta Est ",
+        "FILES_DATA02":                 "2020/Q2",
+
+        "FILES_NAME03":                 "Fuse_Carta_2020_Q3_",
+        "FILES_TITLE03":                "O gorila invisível ",
+        "FILES_DATA03":                 "2020/Q3",
+
+        "FILES_NAME04":                 "Fuse_Carta_2020_Q4_",
+        "FILES_TITLE04":                "O Cravo ",
+        "FILES_DATA04":                 "2020/Q4",
+
+        "FILES_NAME05":                 "Fuse_Carta_2021_Q1_",
+        "FILES_TITLE05":                "O futuro é aqui e Agora",
+        "FILES_DATA05":                 "2021/Q1"
+        
     },
     "SEC_SEALS": {
         "SEALS_HEADER_TITLE":           "Selos",
@@ -115,5 +157,8 @@
     },
     "FOOTER": {
         "COPYRIGHT":                    "&copy; Copyright - <strong><span>Fuse Capital</span></strong>. Todos os direitos reservados"
+    },
+    "MODAL": {
+        "CLOSE":                        "Acessar nosso site"
     }
 }
