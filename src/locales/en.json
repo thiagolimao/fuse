@@ -68,30 +68,39 @@
         "PORTFOLIO_BOX1_LINK":          "aio.com.br",
         "PORTFOLIO_BOX1_DESCRIPTION":   "IA applied to reduce long mock exams to quick quizes, placing the student on the learning frontier.",
         
-        "PORTFOLIO_BOX2_NAME":          "fligoo",
-        "PORTFOLIO_BOX2_URL":           "http://www.fligoo.com",
-        "PORTFOLIO_BOX2_LINK":          "fligoo.com",
-        "PORTFOLIO_BOX2_DESCRIPTION":   "IA applications targeted at large corporate customers.",
+        "PORTFOLIO_BOX2_NAME":          "DNAnudge",
+        "PORTFOLIO_BOX2_URL":           "https://www.dnanudge.com/",
+        "PORTFOLIO_BOX2_LINK":          "dnanudge.com",
+        "PORTFOLIO_BOX2_DESCRIPTION":   "Pioneer in genotyping technology.",
         
-        "PORTFOLIO_BOX3_NAME":          "hashdex",
-        "PORTFOLIO_BOX3_URL":           "http://www.hashdex.com.br",
-        "PORTFOLIO_BOX3_LINK":          "hashdex.com.br",
-        "PORTFOLIO_BOX3_DESCRIPTION":   "Latin America's largest crypto investment company aimed at offering global financial products for the ever-growing demand for crypto Assets.",
+        "PORTFOLIO_BOX3_NAME":          "fligoo",
+        "PORTFOLIO_BOX3_URL":           "http://www.fligoo.com",
+        "PORTFOLIO_BOX3_LINK":          "fligoo.com",
+        "PORTFOLIO_BOX3_DESCRIPTION":   "IA applications targeted at large corporate customers.",
         
-        "PORTFOLIO_BOX4_NAME":          "pink",
-        "PORTFOLIO_BOX4_URL":           "http://www.pinkapp.com/",
-        "PORTFOLIO_BOX4_LINK":          "pinkapp.com",
-        "PORTFOLIO_BOX4_DESCRIPTION":   "Communication platform for small and medium-sized companies.",
+        "PORTFOLIO_BOX4_NAME":          "hashdex",
+        "PORTFOLIO_BOX4_URL":           "http://www.hashdex.com.br",
+        "PORTFOLIO_BOX4_LINK":          "hashdex.com.br",
+        "PORTFOLIO_BOX4_DESCRIPTION":   "Latin America's largest crypto investment company aimed at offering global financial products for the ever-growing demand for crypto Assets.",
         
-        "PORTFOLIO_BOX5_NAME":          "wdental",
-        "PORTFOLIO_BOX5_URL":           "http://w.dental/",
-        "PORTFOLIO_BOX5_LINK":          "w.dental",
-        "PORTFOLIO_BOX5_DESCRIPTION":   "Healthtech with the mission of democratizing dental health in Brazil."
+        "PORTFOLIO_BOX5_NAME":          "pink",
+        "PORTFOLIO_BOX5_URL":           "http://www.pinkapp.com/",
+        "PORTFOLIO_BOX5_LINK":          "pinkapp.com",
+        "PORTFOLIO_BOX5_DESCRIPTION":   "Communication platform for small and medium-sized companies.",
+
+        "PORTFOLIO_BOX6_NAME":          "vexi",
+        "PORTFOLIO_BOX6_URL":           "https://vexi.mx/",
+        "PORTFOLIO_BOX6_LINK":          "vexi.mx",
+        "PORTFOLIO_BOX6_DESCRIPTION":   "Issuing a cards for the Latin American youth.",
+        
+        "PORTFOLIO_BOX7_NAME":          "wdental",
+        "PORTFOLIO_BOX7_URL":           "http://w.dental/",
+        "PORTFOLIO_BOX7_LINK":          "w.dental",
+        "PORTFOLIO_BOX7_DESCRIPTION":   "Healthtech with the mission of democratizing d4ntal health in Brazil."
     },
     "SEC_TEAM": {
         "TEAM_HEADER_TITLE":            "Team",
         "TEAM_HEADER_SUBTITLE":         "Our Team",
-
         "TEAM_TEXT_LINKEDIN":           "Access linkedin from",
         "TEAM_TEXT_COFOUNDER":          "co-Founder and Member ",
         "TEAM_TEXT_PARTNER":            "partner",
@@ -101,7 +110,6 @@
     "SEC_FILES": {
         "FILES_HEADER_TITLE":           "Files",
         "FILES_HEADER_SUBTITLE":        "Downloads",
-
         "FILES_LETTERS_TITLE":          "Letters",
         "FILES_ARTICLES_TITLE":         "Articles",
 
