@@ -68,35 +68,40 @@
         "PORTFOLIO_BOX1_LINK":          "aio.com.br",
         "PORTFOLIO_BOX1_DESCRIPTION":   "IA aplicada para reduzir grandes provas em poucas perguntas, posicionando o estudante na fronteira do aprendizado.",
         
-        "PORTFOLIO_BOX2_NAME":          "DNAnudge",
-        "PORTFOLIO_BOX2_URL":           "https://www.dnanudge.com/",
-        "PORTFOLIO_BOX2_LINK":          "dnanudge.com",
-        "PORTFOLIO_BOX2_DESCRIPTION":   "Pioneira na tecnologia de genotipagem.",
+        "PORTFOLIO_BOX2_NAME":          "arthur",
+        "PORTFOLIO_BOX2_URL":           "https://arthurmining.com/",
+        "PORTFOLIO_BOX2_LINK":          "arthurmining.com",
+        "PORTFOLIO_BOX2_DESCRIPTION":   "Redefinindo a mineração de criptomoedas, beneficiando-se do uso de flare gas como a sua fonte de energia",       
 
-        "PORTFOLIO_BOX3_NAME":          "fligoo",
-        "PORTFOLIO_BOX3_URL":           "http://www.fligoo.com",
-        "PORTFOLIO_BOX3_LINK":          "fligoo.com",
-        "PORTFOLIO_BOX3_DESCRIPTION":   "Aplicações de IA direcionada a grandes clientes corporativos.",
-        
-        "PORTFOLIO_BOX4_NAME":          "hashdex",
-        "PORTFOLIO_BOX4_URL":           "http://www.hashdex.com.br",
-        "PORTFOLIO_BOX4_LINK":          "hashdex.com.br",
-        "PORTFOLIO_BOX4_DESCRIPTION":   "O maior gestor de investimentos cripto da América Latina com o objetivo de oferecer produtos financeiros globais para a demanda crescente por cripto ativos.",
-        
-        "PORTFOLIO_BOX5_NAME":          "pink",
-        "PORTFOLIO_BOX5_URL":           "http://www.pinkapp.com/",
-        "PORTFOLIO_BOX5_LINK":          "pinkapp.com",
-        "PORTFOLIO_BOX5_DESCRIPTION":   "Plataforma de comunicação para pequenas e médias empresas.",
+        "PORTFOLIO_BOX3_NAME":          "DNAnudge",
+        "PORTFOLIO_BOX3_URL":           "https://www.dnanudge.com/",
+        "PORTFOLIO_BOX3_LINK":          "dnanudge.com",
+        "PORTFOLIO_BOX3_DESCRIPTION":   "Pioneira na tecnologia de genotipagem.",
 
-        "PORTFOLIO_BOX6_NAME":          "vexi",
-        "PORTFOLIO_BOX6_URL":           "https://vexi.mx/",
-        "PORTFOLIO_BOX6_LINK":          "vexi.mx",
-        "PORTFOLIO_BOX6_DESCRIPTION":   "Emissão de cartão para o jovem latino-americano.",
+        "PORTFOLIO_BOX4_NAME":          "fligoo",
+        "PORTFOLIO_BOX4_URL":           "http://www.fligoo.com",
+        "PORTFOLIO_BOX4_LINK":          "fligoo.com",
+        "PORTFOLIO_BOX4_DESCRIPTION":   "Aplicações de IA direcionada a grandes clientes corporativos.",
         
-        "PORTFOLIO_BOX7_NAME":          "wdental",
-        "PORTFOLIO_BOX7_URL":           "http://w.dental/",
-        "PORTFOLIO_BOX7_LINK":          "w.dental",
-        "PORTFOLIO_BOX7_DESCRIPTION":   "Healthtech que tem por objetivo democratizar o acesso à saúde bucal no Brasil."
+        "PORTFOLIO_BOX5_NAME":          "hashdex",
+        "PORTFOLIO_BOX5_URL":           "http://www.hashdex.com.br",
+        "PORTFOLIO_BOX5_LINK":          "hashdex.com.br",
+        "PORTFOLIO_BOX5_DESCRIPTION":   "O maior gestor de investimentos cripto da América Latina com o objetivo de oferecer produtos financeiros globais para a demanda crescente por cripto ativos.",
+        
+        "PORTFOLIO_BOX6_NAME":          "pink",
+        "PORTFOLIO_BOX6_URL":           "http://www.pinkapp.com/",
+        "PORTFOLIO_BOX6_LINK":          "pinkapp.com",
+        "PORTFOLIO_BOX6_DESCRIPTION":   "Plataforma de comunicação para pequenas e médias empresas.",
+
+        "PORTFOLIO_BOX7_NAME":          "vexi",
+        "PORTFOLIO_BOX7_URL":           "https://vexi.mx/",
+        "PORTFOLIO_BOX7_LINK":          "vexi.mx",
+        "PORTFOLIO_BOX7_DESCRIPTION":   "Emissão de cartão para o jovem latino-americano.",
+        
+        "PORTFOLIO_BOX8_NAME":          "wdental",
+        "PORTFOLIO_BOX8_URL":           "http://w.dental/",
+        "PORTFOLIO_BOX8_LINK":          "w.dental",
+        "PORTFOLIO_BOX8_DESCRIPTION":   "Healthtech que tem por objetivo democratizar o acesso à saúde bucal no Brasil."
     
     },
     "SEC_TEAM": {
