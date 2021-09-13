@@ -142,7 +142,11 @@
 
         "FILES_NAME05":                 "Fuse_Carta_2021_Q1_",
         "FILES_TITLE05":                "O futuro é aqui e Agora",
-        "FILES_DATA05":                 "2021/Q1"
+        "FILES_DATA05":                 "2021/Q1",
+
+        "FILES_NAME06":                 "Fuse_Carta_2021_Q2_",
+        "FILES_TITLE06":                "O novo normal do venture capital",
+        "FILES_DATA06":                 "2021/Q2"
         
     },
     "SEC_SEALS": {
