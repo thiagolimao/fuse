@@ -112,7 +112,10 @@
         "TEAM_TEXT_COFOUNDER":          "co-fundador e sócio",
         "TEAM_TEXT_PARTNER":            "sócio",
         "TEAM_TEXT_ASSOCIATE":          "associada",
-        "TEAM_TEXT_ANALYST":            "analista"
+        "TEAM_TEXT_ANALYST":            "analista",
+        "TEAM_TEXT_FOUNDER":            "founder",
+        "TEAM_TEXT_INVEST_ANALYST":     "investment analyst",
+        "TEAM_TEXT_OPERATIONS":         "operations"        
     },
     "SEC_FILES": {
         "FILES_HEADER_TITLE":           "Arquivos",
