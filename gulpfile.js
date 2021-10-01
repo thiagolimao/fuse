@@ -8,7 +8,8 @@ const del = require("del");
 const gulp = require("gulp");
 const mergeStream = require("merge-stream");
 const nunjucks = require("gulp-nunjucks");
-const sass = require("gulp-sass");
+// const sass = require("gulp-sass");
+const sass = require('gulp-sass')(require('sass'));
 const inject = require("gulp-inject-string");
 const os = require("os");
 
