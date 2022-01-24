@@ -60,8 +60,9 @@
     "SEC_PORTFOLIO": {
         "PORTFOLIO_HEADER_TITLE":       "Portfólio",
         "PORTFOLIO_HEADER_SUBTITLE":    "Empresas investidas",
+        "PORTFOLIO_SUBHEADER_SUBTITLE": "Club Deals",
         "PORTFOLIO_HEADER_LINK":        "Envie sua Start-up",
-        "PORTFOLIO_BOX_URL_FILE":       "/assets/img/portfolio/logo-",
+        "PORTFOLIO_URL_FILE":           "/assets/img/portfolio/logo-",
         
         "PORTFOLIO_BOX1_NAME":          "aio",
         "PORTFOLIO_BOX1_URL":           "http://www.aio.com.br",
@@ -71,37 +72,57 @@
         "PORTFOLIO_BOX2_NAME":          "arthur",
         "PORTFOLIO_BOX2_URL":           "https://arthurmining.com/",
         "PORTFOLIO_BOX2_LINK":          "arthurmining.com",
-        "PORTFOLIO_BOX2_DESCRIPTION":   "Redefinindo a mineração de criptomoedas, beneficiando-se do uso de flare gas como a sua fonte de energia",       
-
-        "PORTFOLIO_BOX3_NAME":          "DNAnudge",
-        "PORTFOLIO_BOX3_URL":           "https://www.dnanudge.com/",
-        "PORTFOLIO_BOX3_LINK":          "dnanudge.com",
-        "PORTFOLIO_BOX3_DESCRIPTION":   "Pioneira na tecnologia de genotipagem.",
-
-        "PORTFOLIO_BOX4_NAME":          "fligoo",
-        "PORTFOLIO_BOX4_URL":           "http://www.fligoo.com",
-        "PORTFOLIO_BOX4_LINK":          "fligoo.com",
-        "PORTFOLIO_BOX4_DESCRIPTION":   "Aplicações de IA direcionada a grandes clientes corporativos.",
+        "PORTFOLIO_BOX2_DESCRIPTION":   "Redefinindo a mineração de criptomoedas, beneficiando-se do uso de flare gas como a sua fonte de energia",  
         
-        "PORTFOLIO_BOX5_NAME":          "hashdex",
-        "PORTFOLIO_BOX5_URL":           "http://www.hashdex.com.br",
-        "PORTFOLIO_BOX5_LINK":          "hashdex.com.br",
-        "PORTFOLIO_BOX5_DESCRIPTION":   "O maior gestor de investimentos cripto da América Latina com o objetivo de oferecer produtos financeiros globais para a demanda crescente por cripto ativos.",
-        
-        "PORTFOLIO_BOX6_NAME":          "pink",
-        "PORTFOLIO_BOX6_URL":           "http://www.pinkapp.com/",
-        "PORTFOLIO_BOX6_LINK":          "pinkapp.com",
-        "PORTFOLIO_BOX6_DESCRIPTION":   "Plataforma de comunicação para pequenas e médias empresas.",
+        "PORTFOLIO_BOX3_NAME":          "credix",
+        "PORTFOLIO_BOX3_URL":           "https://credix.finance/",
+        "PORTFOLIO_BOX3_LINK":          "credix.finance",
+        "PORTFOLIO_BOX3_DESCRIPTION":   "A ponte entre DeFi e CeFi - o catalisador para uma nova onda de inovação financeira do mundo real.",     
 
-        "PORTFOLIO_BOX7_NAME":          "vexi",
-        "PORTFOLIO_BOX7_URL":           "https://vexi.mx/",
-        "PORTFOLIO_BOX7_LINK":          "vexi.mx",
-        "PORTFOLIO_BOX7_DESCRIPTION":   "Emissão de cartão para o jovem latino-americano.",
+        "PORTFOLIO_BOX4_NAME":          "DNAnudge",
+        "PORTFOLIO_BOX4_URL":           "https://www.dnanudge.com/",
+        "PORTFOLIO_BOX4_LINK":          "dnanudge.com",
+        "PORTFOLIO_BOX4_DESCRIPTION":   "Pioneira na tecnologia de genotipagem.",
+
+        "PORTFOLIO_BOX5_NAME":          "fligoo",
+        "PORTFOLIO_BOX5_URL":           "http://www.fligoo.com",
+        "PORTFOLIO_BOX5_LINK":          "fligoo.com",
+        "PORTFOLIO_BOX5_DESCRIPTION":   "Aplicações de IA direcionada a grandes clientes corporativos.",
         
-        "PORTFOLIO_BOX8_NAME":          "wdental",
-        "PORTFOLIO_BOX8_URL":           "http://w.dental/",
-        "PORTFOLIO_BOX8_LINK":          "w.dental",
-        "PORTFOLIO_BOX8_DESCRIPTION":   "Healthtech que tem por objetivo democratizar o acesso à saúde bucal no Brasil."
+        "PORTFOLIO_BOX6_NAME":          "hashdex",
+        "PORTFOLIO_BOX6_URL":           "http://www.hashdex.com.br",
+        "PORTFOLIO_BOX6_LINK":          "hashdex.com.br",
+        "PORTFOLIO_BOX6_DESCRIPTION":   "O maior gestor de investimentos cripto da América Latina com o objetivo de oferecer produtos financeiros globais para a demanda crescente por cripto ativos.",
+        
+        "PORTFOLIO_BOX7_NAME":          "illios",
+        "PORTFOLIO_BOX7_URL":           "https://illios.network",
+        "PORTFOLIO_BOX7_LINK":          "illios.network",
+        "PORTFOLIO_BOX7_DESCRIPTION":   "A primeira rede Helium institucional da América Latina, promovendo a internet das coisas (IoT).",
+        
+        "PORTFOLIO_BOX8_NAME":          "pink",
+        "PORTFOLIO_BOX8_URL":           "http://www.pinkapp.com/",
+        "PORTFOLIO_BOX8_LINK":          "pinkapp.com",
+        "PORTFOLIO_BOX8_DESCRIPTION":   "Plataforma de comunicação para pequenas e médias empresas.",
+        
+        "PORTFOLIO_BOX9_NAME":          "plugify",
+        "PORTFOLIO_BOX9_URL":           "https://plugify.com.br",
+        "PORTFOLIO_BOX9_LINK":          "plugify.com.br",
+        "PORTFOLIO_BOX9_DESCRIPTION":   "Locadora de equipamentos de TI para empresas de médio e grande porte.",
+        
+        "PORTFOLIO_BOX10_NAME":          "solarisbank",
+        "PORTFOLIO_BOX10_URL":           "https://www.solarisbank.com",
+        "PORTFOLIO_BOX10_LINK":          "solarisbank.com",
+        "PORTFOLIO_BOX10_DESCRIPTION":   "A principal plataforma de Banking as a Service da Europa.",
+
+        "PORTFOLIO_BOX11_NAME":          "vexi",
+        "PORTFOLIO_BOX11_URL":           "https://vexi.mx/",
+        "PORTFOLIO_BOX11_LINK":          "vexi.mx",
+        "PORTFOLIO_BOX11_DESCRIPTION":   "Emissão de cartão para o jovem latino-americano.",
+        
+        "PORTFOLIO_BOX12_NAME":          "wdental",
+        "PORTFOLIO_BOX12_URL":           "http://w.dental/",
+        "PORTFOLIO_BOX12_LINK":          "w.dental",
+        "PORTFOLIO_BOX12_DESCRIPTION":   "Healthtech que tem por objetivo democratizar o acesso à saúde bucal no Brasil."
     
     },
     "SEC_TEAM": {
@@ -129,27 +150,31 @@
 
         "FILES_NAME01":                 "Fuse_Carta_2020_Q1_",
         "FILES_TITLE01":                "Em terra de cisne negro, o que nasce é unicórnio",
-        "FILES_DATA01":                 "2020/Q1",
+        "FILES_DATA01":                 "2020/01",
 
         "FILES_NAME02":                 "Fuse_Carta_2020_Q2_",
         "FILES_TITLE02":                "Alea Jacta Est ",
-        "FILES_DATA02":                 "2020/Q2",
+        "FILES_DATA02":                 "2020/02",
 
         "FILES_NAME03":                 "Fuse_Carta_2020_Q3_",
         "FILES_TITLE03":                "O gorila invisível ",
-        "FILES_DATA03":                 "2020/Q3",
+        "FILES_DATA03":                 "2020/03",
 
         "FILES_NAME04":                 "Fuse_Carta_2020_Q4_",
         "FILES_TITLE04":                "O Cravo ",
-        "FILES_DATA04":                 "2020/Q4",
+        "FILES_DATA04":                 "2020/04",
 
         "FILES_NAME05":                 "Fuse_Carta_2021_Q1_",
         "FILES_TITLE05":                "O futuro é aqui e Agora",
-        "FILES_DATA05":                 "2021/Q1",
+        "FILES_DATA05":                 "2021/01",
 
         "FILES_NAME06":                 "Fuse_Carta_2021_Q2_",
         "FILES_TITLE06":                "O novo normal do venture capital",
-        "FILES_DATA06":                 "2021/Q2"
+        "FILES_DATA06":                 "2021/02",
+
+        "FILES_NAME07":                 "Fuse_Carta_2021_07_",
+        "FILES_TITLE07":                "Redefinindo a liberdade",
+        "FILES_DATA07":                 "2021/07"
         
     },
     "SEC_SEALS": {

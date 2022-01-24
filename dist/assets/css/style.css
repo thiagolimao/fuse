@@ -243,16 +243,20 @@ textarea.form-control {
   color: #ffffff !important;
   background-color: #202124 !important;
   border-color: #202124 !important;
+  border-width: 2px;
 }
 .btn.btn-title:focus, .btn.btn-title.focus {
-  color: #ffffff !important;
-  background-color: #080809 !important;
-  border-color: black !important;
+  color: #202124 !important;
+  background-color: transparent !important;
+  border-color: #202124 !important;
 }
 .btn.btn-title:hover {
-  color: #ffffff !important;
-  background-color: rgba(32, 33, 36, 0.5) !important;
-  border-color: rgba(32, 33, 36, 0.5) !important;
+  color: #202124 !important;
+  background-color: transparent !important;
+  border-color: #202124 !important;
+}
+.btn.btn-title:hover span {
+  color: #202124 !important;
 }
 .btn.btn-title:active, .btn.btn-title.active, .open > .btn.btn-title.dropdown-toggle {
   color: #ffffff !important;
@@ -360,7 +364,7 @@ textarea.form-control {
 }
 
 /* Fallback for Edge
--------------------------------------------------- */
+  -------------------------------------------------- */
 @supports (-ms-ime-align: auto) {
   .form-label-group > label {
     display: none;
@@ -372,7 +376,7 @@ textarea.form-control {
   }
 }
 /* Fallback for IE
--------------------------------------------------- */
+  -------------------------------------------------- */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .form-label-group > label {
     display: none;
