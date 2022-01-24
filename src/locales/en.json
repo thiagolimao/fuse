@@ -97,7 +97,7 @@
         "PORTFOLIO_BOX7_NAME": "illios",
         "PORTFOLIO_BOX7_URL": "https://illios.network",
         "PORTFOLIO_BOX7_LINK": "illios.network",
-        "PORTFOLIO_BOX7_DESCRIPTION": "A primeira rede Helium institucional da América Latina, promovendo a internet das coisas (IoT).",
+        "PORTFOLIO_BOX7_DESCRIPTION": "The first institutional Helium network in Latin America, promoting the internet of things (IoT).",
 
         "PORTFOLIO_BOX8_NAME": "pink",
         "PORTFOLIO_BOX8_URL": "http://www.pinkapp.com/",
@@ -145,29 +145,29 @@
         "FILES_URL": "/assets/pdf/",
         "FILES_LANG": "ENG",
 
-        "FILES_NAME01": "Fuse_Carta_2020_Q1_",
+        "FILES_NAME01": "Fuse_Carta_2020_01_",
         "FILES_TITLE01": "In the land of the black swan, where unicorns are born",
         "FILES_DATA01": "2020/01",
 
-        "FILES_NAME02": "Fuse_Carta_2020_Q2_",
+        "FILES_NAME02": "Fuse_Carta_2020_02_",
         "FILES_TITLE02": "Alea Jacta Est ",
         "FILES_DATA02": "2020/02",
 
-        "FILES_NAME03": "Fuse_Carta_2020_Q3_",
+        "FILES_NAME03": "Fuse_Carta_2020_03_",
         "FILES_TITLE03": "The invisible gorilla",
         "FILES_DATA03": "2020/03",
 
-        "FILES_NAME04": "Fuse_Carta_2020_Q4_",
+        "FILES_NAME04": "Fuse_Carta_2020_04_",
         "FILES_TITLE04": "The clove",
         "FILES_DATA04": "2020/04",
 
-        "FILES_NAME05": "Fuse_Carta_2021_Q1_",
+        "FILES_NAME05": "Fuse_Carta_2021_05_",
         "FILES_TITLE05": "The future is here and now",
-        "FILES_DATA05": "2021/01",
+        "FILES_DATA05": "2021/05",
 
-        "FILES_NAME06": "Fuse_Carta_2021_Q2_",
+        "FILES_NAME06": "Fuse_Carta_2021_06_",
         "FILES_TITLE06": "The new normal of venture capital",
-        "FILES_DATA06": "2021/02",
+        "FILES_DATA06": "2021/06",
 
         "FILES_NAME07":  "Fuse_Carta_2021_07_",
         "FILES_TITLE07": "Redefining liberty",
