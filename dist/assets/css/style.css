@@ -850,6 +850,7 @@ textarea.form-control {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  visibility: hidden;
 }
 @media (min-width: 1200px) {
   #hero .hero-info {
