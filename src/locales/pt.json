@@ -136,6 +136,7 @@
         "TEAM_TEXT_ANALYST":            "analista",
         "TEAM_TEXT_FOUNDER":            "founder",
         "TEAM_TEXT_INVEST_ANALYST":     "investment analyst",
+        "TEAM_TEXT_PARTNER":            "partner",
         "TEAM_TEXT_OPERATIONS":         "operations"        
     },
     "SEC_FILES": {
