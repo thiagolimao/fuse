@@ -124,13 +124,16 @@
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('#header').addClass('header-scrolled');
+            $('#hero').addClass('hero-scrolled');
         } else {
             $('#header').removeClass('header-scrolled');
+            $('#hero').removeClass('hero-scrolled');
         }
     });
 
     if ($(window).scrollTop() > 100) {
         $('#header').addClass('header-scrolled');
+        $('#hero').addClass('hero-scrolled');
     }
 
     // Back to top button

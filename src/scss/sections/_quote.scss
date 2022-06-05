@@ -2,91 +2,88 @@
 # quote
 --------------------------------------------------------------*/
 .quote {
-    padding: 6rem 0;
-    background-image: url("../img/hero-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    position: relative;
+  padding: 6rem 0;
+  background-image: url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
 
-    @media (min-width: 1024px) {
-        background-attachment: fixed;
+  display: none !important;
+
+  @media (min-width: 1024px) {
+    background-attachment: fixed;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(darken($default-color, 30), 0.5);
+  }
+
+  #blockquoteContent {
+    z-index: 1;
+  }
+  .blockquote {
+    // padding-top: 1rem;
+    margin: 0;
+    display: none;
+    &:before {
+      color: $white;
+      content: "❞";
+      font-family: "icons";
+      font-size: 10rem;
+
+      line-height: 0.5;
+      // text-align: center;
+
+      transform: scaleY(-1) scaleX(-1);
+      filter: FlipH;
+
+      display: block;
+      width: 6rem;
+      height: auto;
+
+      position: relative;
+      top: -2rem;
     }
 
-    &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        background: rgba(darken($default-color, 30), 0.5);
+    p {
+      // box-shadow: 0 -6px 0 rgba(255, 255, 255, 0.1);
+      color: $white;
+      display: inline;
+      // font-family: Baskerville, Georgia, serif;
+      // font-family: $font-family-serif;
+      font-style: italic;
+      font-size: 1.5rem;
+      line-height: 1.4;
+      text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+
+      padding-top: 0.2rem;
+      margin-bottom: 0;
+
+      // extra mobile
+      @media (max-width: 320px) {
+        font-size: 1.2rem;
+      }
     }
+    .blockquote-footer {
+      font-size: 1.2rem;
+      margin-top: 1.2rem;
+      color: $white;
 
-
-    #blockquoteContent
-    {
-        z-index: 1;
+      // extra mobile
+      @media (max-width: 320px) {
+        font-size: 1rem;
+      }
+      cite {
+        display: block;
+        padding-left: 26px;
+      }
     }
-    .blockquote {
-        // padding-top: 1rem;
-        margin: 0;
-        display: none;
-        &:before {
-            color: $white; 
-            content: "❞";
-            font-family: 'icons';
-            font-size: 10rem;
-
-            line-height: .5;
-            // text-align: center;
-
-            transform: scaleY(-1) scaleX(-1);
-            filter: FlipH;
-
-            display: block;
-            width: 6rem;
-            height: auto;
-
-            position: relative;
-            top: -2rem;
-    
-        }
-
-        p {
-            // box-shadow: 0 -6px 0 rgba(255, 255, 255, 0.1); 
-            color: $white; 
-            display: inline; 
-            // font-family: Baskerville, Georgia, serif; 
-            // font-family: $font-family-serif;
-            font-style: italic; 
-            font-size: 1.5rem; 
-            line-height: 1.4;
-            text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);  
-
-            padding-top: .2rem;
-            margin-bottom: 0;
-
-
-            // extra mobile
-            @media (max-width: 320px) {
-              font-size: 1.2rem;
-            }
-        } 
-        .blockquote-footer {
-            font-size: 1.2rem; 
-            margin-top: 1.2rem;
-            color: $white; 
-
-            // extra mobile
-            @media (max-width: 320px) {
-              font-size: 1rem;
-            }
-            cite {
-                display: block;
-                padding-left: 26px;
-            }
-        }
-    } 
+  }
 }
-

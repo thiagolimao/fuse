@@ -3,53 +3,143 @@
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/hero-bg.png");
+  background-color: #212121;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center left;
+  //   background-size: contain;
   background-size: cover;
   position: relative;
 
-  padding: 13rem 0 0 0;
+  //   padding: 13rem 0 0 0;
+  padding: 0 0 4rem;
+  transition: all 0.5s;
+  transition-timing-function: ease-in-out;
 
   // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) {
-    padding-top: 18rem;
-  }
+  //   @media (min-width: 1200px) {
+  //     padding-top: 18rem;
+  //   }
 
   @media (min-width: 1024px) {
+    // background-attachment: fixed;
+  }
+  @media (max-height: 1024px) {
     background-attachment: fixed;
+    height: 100vh;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) and (max-height: 1024px) {
+    background-attachment: inherit;
+    background-position: center;
+    height: 60vh;
+    padding: 0 0 2rem;
+  }
+
+  @media (max-width: 767.98px) {
+    background-attachment: inherit;
+    background-position: center;
+    height: 60vh;
+    padding: 0 0 2rem;
+  }
+
+  @media (max-width: 575.98px) {
+    // background-attachment: inherit;
+    // background-position: center;
+    height: 40vh;
+    // padding: 0 0 2rem;
   }
 
   // extra mobile
   @media (max-width: 320px) {
     padding-top: 9rem;
   }
-
   &:before {
     content: "";
-    background: rgba(darken($default-color, 30), 0.5);
+    background: rgba(darken($default-color, 30), 0);
     position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
+
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+  }
+
+  &.hero-scrolled {
+    background-color: #202124;
+    &:before {
+      background: rgba(darken($default-color, 30), 0.9);
+    }
+
+    .hero-info {
+      h1 {
+        font-size: 3.5rem;
+        letter-spacing: 1.2rem;
+
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) {
+        }
+
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          font-size: 2.275rem;
+        }
+
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          font-size: 2.275rem;
+          // line-height: 7rem;
+          // letter-spacing: 2rem;
+          // margin-right: -2rem;
+        }
+
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          font-size: 2.075rem;
+          letter-spacing: 1rem;
+          //   line-height: 7rem;
+          //   letter-spacing: 2rem;
+        }
+
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 575.98px) {
+          font-size: 1.675rem;
+          letter-spacing: 0.8rem;
+          //   margin-right: -1rem;
+        }
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 479.98px) {
+          font-size: 1.575rem;
+          letter-spacing: 0.6rem;
+          //   margin-right: -1rem;
+        }
+
+        // extra mobile
+        @media (max-width: 320px) {
+          font-size: 1.8rem;
+        }
+      }
+    }
   }
   .hero-info {
     padding-top: 0;
-    padding-bottom: 5rem;
+    padding-bottom: 0;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
 
-    visibility: hidden;
+    height: fit-content;
 
+    // visibility: hidden;
     // Extra large devices (large desktops, 1200px and up)
-    @media (min-width: 1200px) {
-      padding-bottom: 14rem;
-    }
-
+    // @media (min-width: 1200px) {
+    //   padding-bottom: 14rem;
+    // }
     // extra mobile
     @media (max-width: 320px) {
       padding-bottom: 2rem;
@@ -57,19 +147,21 @@
 
     h1 {
       margin: 0;
-      color: rgba($white, 0.4);
+      color: rgba($white, 1);
 
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      font-family: $font-default;
+      text-align: center;
       text-transform: uppercase;
       flex-direction: column;
 
-      font-size: 5.5rem;
-      font-weight: 700;
+      font-size: 2.5rem;
       line-height: 8rem;
-      letter-spacing: 5rem;
-      margin-right: -5rem;
+      letter-spacing: 0.2rem;
+      //   margin-right: -5rem;
+
+      transition-property: font-size, letter-spacing;
+      transition-timing-function: ease-in-out;
+      transition-duration: 1s;
 
       // Extra large devices (large desktops, 1200px and up)
       @media (min-width: 1200px) {
@@ -81,26 +173,25 @@
 
       // Medium devices (tablets, 768px and up)
       @media (min-width: 768px) and (max-width: 991.98px) {
-        font-size: 5rem;
-        line-height: 7rem;
-        letter-spacing: 2rem;
-        margin-right: -2rem;
+        // font-size: 5rem;
+        // line-height: 7rem;
+        // letter-spacing: 2rem;
+        // margin-right: -2rem;
+      }
+
+      @media (min-width: 768px) and (max-width: 991.98px) and (max-height: 1024px) {
+        font-size: 2.075rem;
       }
 
       // Small devices (landscape phones, 576px and up)
       @media (min-width: 576px) and (max-width: 767.98px) {
-        font-size: 5rem;
-        line-height: 7rem;
-        letter-spacing: 2rem;
-        margin-right: -2rem;
+        font-size: 2.075rem;
       }
 
       // Extra small devices (portrait phones, less than 576px)
       @media (max-width: 575.98px) {
-        font-size: 3rem;
+        font-size: 1.375rem;
         line-height: 3rem;
-        letter-spacing: 1rem;
-        margin-right: -1rem;
       }
 
       // extra mobile
